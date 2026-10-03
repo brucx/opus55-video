@@ -1,0 +1,100 @@
+[
+ {
+  "id": "s01_cold",
+  "title": "The footage answers the question: impossible-looking shots, then \"Every frame is code\"",
+  "prev": null,
+  "next": "s02_title",
+  "amend": "- Footage description fixes (the builder must look at the frames anyway): in the 4.00–6.50 row, 「Search ⌘K」 pill expands into\n  「Type a command」 (4.16–4.20 of the clip)."
+ },
+ {
+  "id": "s02_title",
+  "title": "\"Including this frame\": X-ray our own frame, then the toast becomes the title and syllabus",
+  "prev": "s01_cold",
+  "next": "s03_text",
+  "amend": "- s02_title.1 now speaks slower (rate −8 %, gapAfter 0.12): re-read word times from timeline.js.\n- Start the H3 rise at ≈3.0 s (not 3.57) so it stays ≥ 5.1 s."
+ },
+ {
+  "id": "s03_text",
+  "title": "Principle 1: Opus 5.5 writes text; browsers and engines paint",
+  "prev": "s02_title",
+  "next": "s04_render",
+  "amend": "(none)"
+ },
+ {
+  "id": "s04_render",
+  "title": "Principle 2: a flip book where every page is computed; this scene's own code; 900 frames, code written once",
+  "prev": "s03_text",
+  "next": "s05_wall",
+  "amend": "- s04_render.1 is now 「代码视频就像一本手翻书。给一个时间，就算出那一页。」 and s04_render.5 is 「再用 FFmpeg 把这些帧拼成视频。」\n  (TTS reads \"F F mpeg\": `ctx.word('s04_render.5', 'FFmpeg')` matches the 'mpeg' token). Re-read all word times.\n- Code panel: `PAGE.draw.toString()` from src/lib/shared.js (header comment: `// src/lib/shared.js · 本幕正在运行的代码`).\n- Keep the determinism stamp 「同一帧 ✓」 and its footnote visible as a footer (y ≈ 846) until the end of the scene."
+ },
+ {
+  "id": "s05_wall",
+  "title": "\"The principle is easy; the difference is directing\": 1,704 cases → 8 tricks",
+  "prev": "s04_render",
+  "next": "s06_c1",
+  "amend": "- s05_wall.3 is now 「我们挑了 8 个，每个一招。」: the fly-to-rack cue is `ctx.word('s05_wall.3', '每个')`.\n- s05_wall.2 TTS says \"Way to A G I\" (subtitles timed proportionally); cue words in that line may differ — check timeline.js.\n- H1 「差在导演功夫」: at ≈4.0 s shrink it to a 64 px header at y ≈ 170 instead of exiting; keep it until 「8 个」.\n- Wall footnote stays: 「缩略图来自 WaytoAGI 案例库，版权归各作者 · 收录作品并非都由 Opus 代码渲染」."
+ },
+ {
+  "id": "s14_formula",
+  "title": "Synthesis: beauty is directing, not \"Opus paints\"; you direct, it codes",
+  "prev": "s13_c8",
+  "next": "s15_env",
+  "amend": "- Term threads (which cases illustrate which term) must be: 「叙事」 01 · 03 · 05 · 「少量规则」 02 · 06 · 08 · 「统一时间轴」 01 · 03 ·\n  「声音落点」 01 · 04 · 07 · 「反复检查」 01 · 03. Every case keeps ≥ 1 thread.\n- The footnote fades in at 0.5 s (not 4.2)."
+ },
+ {
+  "id": "s15_env",
+  "title": "Step 1: an AI environment that can run code",
+  "prev": "s14_formula",
+  "next": "s16_routes",
+  "amend": "- s15_env.1 → 「轮到你了。第一步，准备一个能运行代码的 AI 工具，比如 Claude Code。」; headline 「第一步 · 能运行代码的 AI 工具」.\n- s15_env.2 → 「再装 Node 和 FFmpeg。注意，Claude Code 要付费账号。」\n- Footnote: ONE line that fades in at 「准备」 together with the terminal:\n  「Claude Code 需付费账号（Pro 起），免费版不含；仅在 Anthropic 支持的地区提供」\n- Terminal lines after `$ ffmpeg -version`: `$ mkdir my-video` / `$ cd my-video` / `$ claude      # 首次运行按提示登录，然后用中文提需求`\n  (separate lines; no &&). Make the terminal tall enough (or font 22) so all 7 lines fit.\n- Replace the single line under the terminal with two lines (mono 20–22, ink-2):\n  「Windows PowerShell：irm https://claude.ai/install.ps1 | iex」\n  「缺 Node：nodejs.org 装 LTS 版 · 缺 FFmpeg：Mac 用 brew install ffmpeg；Windows 可先走 Remotion（自带 FFmpeg）」\n- Use K.stepRail (active 0) and K.sticker."
+ },
+ {
+  "id": "s16_routes",
+  "title": "Step 2: four routes, real commands on screen (2×2 grid, scrolls one row)",
+  "prev": "s15_env",
+  "next": "s17_prompt",
+  "amend": "- s16_routes.3 → 「想要现成风格，就装 Lemo-Opuscar。再加一句：先给我看分镜。」\n- Card A (HyperFrames) code: plugin invocation comment 「# 然后新开会话，用 /hyperframes:hyperframes 提需求」; add the line\n  `$ npx hyperframes telemetry disable   # 可选：关闭匿名遥测`; its note becomes 「需 Node 22+ 与 FFmpeg」.\n- Card B (Remotion): `$ cd my-video` and `$ npm i` on separate lines; licence note 「个人和 3 人内团队免费，大公司需买许可」.\n- Card C (pure HTML): `$ npm init -y` and `$ npm i puppeteer` on separate lines; chip 「本片同路线」; footnote\n  「本片用 Playwright 驱动无头 Chrome」.\n- Card D (Lemo-Opuscar): the 43-swatch strip is our own illustration → corner tag 「示意」.\n- Lemo chat bubble: lay it out at 35 % ink from the scroll (≈6.8 s) and type it to full ink at the word 「Lemo」.\n- Use K.stepRail (active 1, prev 0) and K.sticker."
+ },
+ {
+  "id": "s17_prompt",
+  "title": "Step 3: a filled template; style words become checkable rules",
+  "prev": "s16_routes",
+  "next": "s18_sample",
+  "amend": "- Add K.sticker 「暂停就能抄」 at (1560, 214) from 0.5 s.\n- Template line 10 → 「本轮只交：分镜表、三张效果图、一个小样。」\n- Use K.stepRail (active 2, prev 1)."
+ },
+ {
+  "id": "s18_sample",
+  "title": "Step 4: storyboard, three style frames and one sample before the full piece",
+  "prev": "s17_prompt",
+  "next": "s19_feedback",
+  "amend": "- s18_sample.1 → 「第四步，先要分镜、三张效果图和一个小样，确认了再做全片。」; on screen 「风格帧 ×3」 → 「效果图 ×3」.\n- The sample card uses PAGE.draw. Use K.stepRail (active 3, prev 2)."
+ },
+ {
+  "id": "s19_feedback",
+  "title": "Step 5: feedback = time point + problem + expectation",
+  "prev": "s18_sample",
+  "next": "s20_ship",
+  "amend": "- s19_feedback.2 → 「别说再炫一点。要说：第 8 到 11 秒，标题没读完就消失，请延长停留。」\n- The sample preview uses PAGE.draw. Use K.stepRail (active 4, prev 3)."
+ },
+ {
+  "id": "s20_ship",
+  "title": "Step 6: check everything; your first piece is 15–30 s",
+  "prev": "s19_feedback",
+  "next": "s21_meta",
+  "amend": "- s20_ship.1 → 「第六步，检查：截图、片段，再带声音完整看一遍。」; s20_ship.2 → 「模型看不了视频，就让它先截成图片再看。」\n- On screen: checklist item 1 「静帧」 → 「截图」; tip card 「让它先抽帧，再看图」 → 「先截成图片，再让它看」. Re-cue 静帧 → 「截图」,\n  抽帧 → 「截成」. The scene is now longer (tail 1.9 s, bar snap): the homework card must stay readable ≥ 5 s.\n- Use K.stepRail (active 5, prev 4)."
+ },
+ {
+  "id": "s21_meta",
+  "title": "The reveal (chip 「04 ？」): this film's real code, real timeline, and a synthetic voice",
+  "prev": "s20_ship",
+  "next": "s22_end",
+  "amend": "- Window title 「Claude Code · Opus 5.5 · 全片 {{CODE_LINES}} 行代码」 (via E.fill); NO line-count badge on the src/scenes tab.\n- The music.py excerpt is the CHORDS block: from the line starting `CHORDS = [` through its closing `]` (6 lines). Read files\n  with fetch('../tools/music.py') / fetch('scenes/case.js') during build(); if a fetch fails, throw (never show invented code).\n  Because build() cannot be async, fetch synchronously with XMLHttpRequest (open(..., false)).\n- Keep the caption 「刚才 8 张案例卡的入场动画，就是这几行」 under the window through phase B; shorten the bracket to\n  「字幕就按这些时间出现」 and land it at 「连」.\n- {{RENDER_MIN}} is filled from the last full-resolution render (approximate, \"约\"); write it as 「渲染约 {{RENDER_MIN}} 分钟」."
+ },
+ {
+  "id": "s22_end",
+  "title": "End card: read, browse, go make your first; the playhead reaches the last frame",
+  "prev": "s21_meta",
+  "next": null,
+  "amend": "- minDur is now 7.5 s: the URL stays ≥ 5.8 s."
+ }
+]

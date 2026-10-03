@@ -1,0 +1,157 @@
+{
+ "onsetThreshold": 0.35,
+ "onsets": [
+  {
+   "t": 0.083,
+   "beatIndex": 0,
+   "offsetMs": 43.3
+  },
+  {
+   "t": 0.567,
+   "beatIndex": 1,
+   "offsetMs": 26.7
+  },
+  {
+   "t": 1.617,
+   "beatIndex": 3,
+   "offsetMs": 76.7
+  },
+  {
+   "t": 2.0,
+   "beatIndex": 4,
+   "offsetMs": -40.0
+  },
+  {
+   "t": 2.45,
+   "beatIndex": 5,
+   "offsetMs": -90.0
+  },
+  {
+   "t": 3.633,
+   "beatIndex": 7,
+   "offsetMs": 93.3
+  },
+  {
+   "t": 4.083,
+   "beatIndex": 8,
+   "offsetMs": 43.3
+  },
+  {
+   "t": 6.55,
+   "beatIndex": 13,
+   "offsetMs": 10.0
+  },
+  {
+   "t": 7.05,
+   "beatIndex": 14,
+   "offsetMs": 10.0
+  },
+  {
+   "t": 7.983,
+   "beatIndex": 16,
+   "offsetMs": -56.7
+  },
+  {
+   "t": 8.233,
+   "beatIndex": 16,
+   "offsetMs": 193.3
+  },
+  {
+   "t": 9.983,
+   "beatIndex": 20,
+   "offsetMs": -56.7
+  },
+  {
+   "t": 10.017,
+   "beatIndex": 20,
+   "offsetMs": -23.3
+  },
+  {
+   "t": 11.45,
+   "beatIndex": 23,
+   "offsetMs": -90.0
+  },
+  {
+   "t": 11.483,
+   "beatIndex": 23,
+   "offsetMs": -56.7
+  },
+  {
+   "t": 12.8,
+   "beatIndex": 26,
+   "offsetMs": -240.0
+  },
+  {
+   "t": 13.1,
+   "beatIndex": 26,
+   "offsetMs": 60.0
+  },
+  {
+   "t": 14.567,
+   "beatIndex": 29,
+   "offsetMs": 26.7
+  },
+  {
+   "t": 14.967,
+   "beatIndex": 30,
+   "offsetMs": -73.3
+  },
+  {
+   "t": 15.467,
+   "beatIndex": 31,
+   "offsetMs": -73.3
+  },
+  {
+   "t": 15.983,
+   "beatIndex": 32,
+   "offsetMs": -56.7
+  },
+  {
+   "t": 16.5,
+   "beatIndex": 33,
+   "offsetMs": -40.0
+  },
+  {
+   "t": 17.0,
+   "beatIndex": 34,
+   "offsetMs": -40.0
+  },
+  {
+   "t": 17.567,
+   "beatIndex": 35,
+   "offsetMs": 26.7
+  },
+  {
+   "t": 18.0,
+   "beatIndex": 36,
+   "offsetMs": -40.0
+  },
+  {
+   "t": 18.317,
+   "beatIndex": 37,
+   "offsetMs": -223.3
+  },
+  {
+   "t": 19.733,
+   "beatIndex": 39,
+   "offsetMs": 193.3
+  },
+  {
+   "t": 19.783,
+   "beatIndex": 39,
+   "offsetMs": 243.3
+  }
+ ],
+ "changeByBeatPhase50ms": [
+  3.519,
+  2.594,
+  2.242,
+  2.197,
+  1.433,
+  1.42,
+  1.511,
+  1.725,
+  1.929,
+  2.969
+ ]
+}

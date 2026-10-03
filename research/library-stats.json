@@ -1,0 +1,759 @@
+{
+  "source": "/home/box/orca/projects/opus55/data/all_cases.json",
+  "computedAt": "2026-10-01",
+  "libraryMeta": {
+    "asOf": "2026-10-01",
+    "count": 5181,
+    "refreshedAt": "2026-10-01T03:58:07+00:00",
+    "lastFullRefreshAt": "2026-09-30T07:38:18+00:00",
+    "baseFetchedAt": "2026-10-01T03:14:34+00:00",
+    "refreshScope": {
+      "key": "multi-source-2026-10-01-partial",
+      "zh": "多源更新（9 月 30 日以来；部分接口受限）",
+      "en": "Multi-source update (since September 30; some endpoints limited)"
+    }
+  },
+  "totalCases": 5181,
+  "categories": [
+    {
+      "category": "video",
+      "zh": "视频编辑与制作",
+      "en": "Video Editing & Production",
+      "count": 1704,
+      "share": 0.3289
+    },
+    {
+      "category": "games",
+      "zh": "游戏开发",
+      "en": "Game Development",
+      "count": 726,
+      "share": 0.1401
+    },
+    {
+      "category": "coding",
+      "zh": "代码维护与测试",
+      "en": "Code Maintenance & Testing",
+      "count": 472,
+      "share": 0.0911
+    },
+    {
+      "category": "3d",
+      "zh": "3D 建模与场景",
+      "en": "3D Modeling & Scenes",
+      "count": 465,
+      "share": 0.0898
+    },
+    {
+      "category": "graphics",
+      "zh": "创意图形与动画",
+      "en": "Creative Graphics & Animation",
+      "count": 410,
+      "share": 0.0791
+    },
+    {
+      "category": "education",
+      "zh": "交互教育与可视化",
+      "en": "Interactive Learning & Visualization",
+      "count": 315,
+      "share": 0.0608
+    },
+    {
+      "category": "agents",
+      "zh": "Agent 与开发工作流",
+      "en": "Agents & Developer Workflows",
+      "count": 271,
+      "share": 0.0523
+    },
+    {
+      "category": "web",
+      "zh": "网站与界面",
+      "en": "Websites & Interfaces",
+      "count": 238,
+      "share": 0.0459
+    },
+    {
+      "category": "business",
+      "zh": "业务分析与文档",
+      "en": "Business Analysis & Documents",
+      "count": 174,
+      "share": 0.0336
+    },
+    {
+      "category": "writing",
+      "zh": "写作与知识解释",
+      "en": "Writing & Explanations",
+      "count": 122,
+      "share": 0.0235
+    },
+    {
+      "category": "science",
+      "zh": "科学研究与电路",
+      "en": "Scientific Research & Circuits",
+      "count": 111,
+      "share": 0.0214
+    },
+    {
+      "category": "audio",
+      "zh": "音乐与声音",
+      "en": "Music & Sound",
+      "count": 95,
+      "share": 0.0183
+    },
+    {
+      "category": "computer-use",
+      "zh": "电脑操作",
+      "en": "Computer Use",
+      "count": 48,
+      "share": 0.0093
+    },
+    {
+      "category": "vision",
+      "zh": "视觉理解与数据标注",
+      "en": "Visual Understanding & Annotation",
+      "count": 30,
+      "share": 0.0058
+    }
+  ],
+  "video": {
+    "category": "video",
+    "zh": "视频编辑与制作",
+    "en": "Video Editing & Production",
+    "count": 1704,
+    "shareOfLibrary": 0.3289,
+    "matchesArticle1704": true,
+    "evidenceType": [
+      {
+        "value": "演示",
+        "count": 1227,
+        "share": 0.7201,
+        "value_en": "Demo"
+      },
+      {
+        "value": "集成",
+        "count": 256,
+        "share": 0.1502,
+        "value_en": "Integration"
+      },
+      {
+        "value": "教程",
+        "count": 127,
+        "share": 0.0745,
+        "value_en": "Tutorial"
+      },
+      {
+        "value": "评测",
+        "count": 78,
+        "share": 0.0458,
+        "value_en": "Evaluation"
+      },
+      {
+        "value": "限制",
+        "count": 16,
+        "share": 0.0094,
+        "value_en": "Limitation"
+      }
+    ],
+    "source": [
+      {
+        "value": "x",
+        "count": 1263,
+        "share": 0.7412
+      },
+      {
+        "value": "video",
+        "count": 251,
+        "share": 0.1473
+      },
+      {
+        "value": "reddit",
+        "count": 87,
+        "share": 0.0511
+      },
+      {
+        "value": "github",
+        "count": 62,
+        "share": 0.0364
+      },
+      {
+        "value": "web",
+        "count": 29,
+        "share": 0.017
+      },
+      {
+        "value": "hn",
+        "count": 12,
+        "share": 0.007
+      }
+    ],
+    "platform": [
+      {
+        "value": "X",
+        "count": 1263,
+        "share": 0.7412
+      },
+      {
+        "value": "Bilibili",
+        "count": 229,
+        "share": 0.1344
+      },
+      {
+        "value": "Reddit",
+        "count": 87,
+        "share": 0.0511
+      },
+      {
+        "value": "GitHub",
+        "count": 62,
+        "share": 0.0364
+      },
+      {
+        "value": "note",
+        "count": 24,
+        "share": 0.0141
+      },
+      {
+        "value": "YouTube",
+        "count": 22,
+        "share": 0.0129
+      },
+      {
+        "value": "Hacker News",
+        "count": 12,
+        "share": 0.007
+      },
+      {
+        "value": "Zenn",
+        "count": 1,
+        "share": 0.0006
+      },
+      {
+        "value": "Substack",
+        "count": 1,
+        "share": 0.0006
+      },
+      {
+        "value": "V2EX",
+        "count": 1,
+        "share": 0.0006
+      },
+      {
+        "value": "Blog",
+        "count": 1,
+        "share": 0.0006
+      },
+      {
+        "value": "Qiita",
+        "count": 1,
+        "share": 0.0006
+      }
+    ],
+    "mediaKind": [
+      {
+        "value": "video",
+        "count": 1460,
+        "share": 0.8568
+      },
+      {
+        "value": "none",
+        "count": 225,
+        "share": 0.132
+      },
+      {
+        "value": "image",
+        "count": 19,
+        "share": 0.0112
+      }
+    ],
+    "dateRange": {
+      "min": "2026-09-21",
+      "max": "2026-10-01",
+      "withDate": 1701,
+      "missingDate": 3
+    },
+    "casesPerDay": {
+      "2026-09-21": 2,
+      "2026-09-22": 79,
+      "2026-09-23": 224,
+      "2026-09-24": 238,
+      "2026-09-25": 428,
+      "2026-09-26": 384,
+      "2026-09-27": 81,
+      "2026-09-28": 102,
+      "2026-09-29": 90,
+      "2026-09-30": 67,
+      "2026-10-01": 6,
+      "unknown": 3
+    },
+    "posterHosts": {
+      "pbs.twimg.com": 1202,
+      "none": 227,
+      "i0.hdslb.com": 80,
+      "i2.hdslb.com": 75,
+      "i1.hdslb.com": 74,
+      "external-preview.redd.it": 24,
+      "i.ytimg.com": 22
+    },
+    "publicPrompts": {
+      "withPromptEvidence": 115,
+      "withResources": 129,
+      "withPromptEvidenceOrResources": 129,
+      "withPromptEvidenceOrPromptLabeledResource": 116,
+      "promptEvidenceEntriesByKindReported": {
+        "brief": 72,
+        "full": 44
+      },
+      "promptEvidenceCompletenessVerified": {
+        "False": 116
+      },
+      "resourceLinkLabels": [
+        {
+          "label": "提示词来源",
+          "label_en": "Prompt source",
+          "links": 111
+        },
+        {
+          "label": "相关作品与后续记录",
+          "label_en": "Related work / follow-up",
+          "links": 16
+        },
+        {
+          "label": "来源附链",
+          "label_en": "Source resource",
+          "links": 4
+        },
+        {
+          "label": "关联帖提示词来源",
+          "label_en": "Related-post prompt source",
+          "links": 2
+        },
+        {
+          "label": "提示词截图（未转录）",
+          "label_en": "Prompt image (not transcribed)",
+          "links": 1
+        },
+        {
+          "label": "风格与提示词",
+          "label_en": "Styles & prompts",
+          "links": 1
+        },
+        {
+          "label": "导演指南",
+          "label_en": "Directing guide",
+          "links": 1
+        },
+        {
+          "label": "技术指南",
+          "label_en": "Technical guide",
+          "links": 1
+        }
+      ],
+      "note": "promptEvidence = public post text retrieved with the upstream prompt classification (brief/full) kept; completenessVerified is false for every entry, i.e. the public text is not verified as the full prompt/session. 'resources' also contains non-prompt links (related work, repos, guides), so the strict prompt count is withPromptEvidenceOrPromptLabeledResource; withPromptEvidenceOrResources is the broader 'has public prompt or linked material' count."
+    },
+    "metricsCoverage": {
+      "likesMissing": 278,
+      "viewsMissing": 202,
+      "metricsCheckedAtPresent": 1348,
+      "note": "likes/views are platform-native counters captured at metricsCheckedAt (X likes/views, Bilibili likes/plays, etc.) and are not comparable across platforms; Reddit/GitHub/HN rows mostly lack them."
+    },
+    "topByLikes": [
+      {
+        "rank": 1,
+        "id": "gosail-001",
+        "title": "用共享提示词一夜生成的精致场景",
+        "title_en": "Elaborate overnight scene from shared prompt",
+        "author": "@anabology",
+        "platform": "X",
+        "likes": 14270,
+        "views": 19112010,
+        "date": "2026-09-25",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2103533196721704960/img/ILpk1iqxJsJGiDcK.jpg",
+        "sourceUrl": "https://x.com/anabology/status/2103534482930491441"
+      },
+      {
+        "rank": 2,
+        "id": "lists-006",
+        "title": "无缝 UI 形变循环动效",
+        "title_en": "Seamless UI morph loop",
+        "author": "@twoclipping",
+        "platform": "X",
+        "likes": 12016,
+        "views": 1012809,
+        "date": "2026-09-24",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2103272964967804928/img/DTuQzS4NOGKMbTDA.jpg",
+        "sourceUrl": "https://x.com/twoclipping/status/2103273003555402193"
+      },
+      {
+        "rank": 3,
+        "id": "uc-0155",
+        "title": "官方转发的西瓜故事短片",
+        "title_en": "An officially shared watermelon short",
+        "author": "@claudeai",
+        "platform": "X",
+        "likes": 11325,
+        "views": 1328585,
+        "date": "2026-09-22",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2102467313874178048/img/O2IOHN0jPHhbe1Zh.jpg",
+        "sourceUrl": "https://x.com/claudeai/status/2102471866635919731"
+      },
+      {
+        "rank": 4,
+        "id": "lists-010",
+        "title": "一句口述提示跑 12 小时的音乐视频",
+        "title_en": "Music video from one spoken prompt",
+        "author": "@donaldjewkes",
+        "platform": "X",
+        "likes": 10499,
+        "views": 3762560,
+        "date": "2026-09-23",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2102799458031534086/img/GBhRZ7O3fCXn59dk.jpg",
+        "sourceUrl": "https://x.com/donaldjewkes/status/2102801274173587569"
+      },
+      {
+        "rank": 5,
+        "id": "uc-2282",
+        "title": "参考片、组件与分镜先行的动效流程",
+        "title_en": "A reference-and-storyboard motion workflow",
+        "author": "@rexan_wong",
+        "platform": "X",
+        "likes": 6723,
+        "views": 606174,
+        "date": "2026-09-26",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2103706737085980672/img/8VLe1EgFhxjepOB9.jpg",
+        "sourceUrl": "https://x.com/rexan_wong/status/2103707054108299437"
+      },
+      {
+        "rank": 6,
+        "id": "lists-007",
+        "title": "JS 逐帧绘制的动画短片",
+        "title_en": "JS-drawn animated short",
+        "author": "@kevin_t_ngo",
+        "platform": "X",
+        "likes": 6076,
+        "views": 644579,
+        "date": "2026-09-22",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2102437792425070592/img/H7fyRYmlzFr2osoV.jpg",
+        "sourceUrl": "https://x.com/kevin_t_ngo/status/2102437977435893771"
+      },
+      {
+        "rank": 7,
+        "id": "lists-607",
+        "title": "Bend 语言宣传片",
+        "title_en": "Intro video for Bend language",
+        "author": "@VictorTaelin",
+        "platform": "X",
+        "likes": 6066,
+        "views": 388668,
+        "date": "2026-09-28",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2104568018294435840/img/p3LmsoaYofU1U1K8.jpg",
+        "sourceUrl": "https://x.com/VictorTaelin/status/2104568082169749982"
+      },
+      {
+        "rank": 8,
+        "id": "uc-1221",
+        "title": "展望未来五十年的影片",
+        "title_en": "A film imagining the next fifty years",
+        "author": "@andrewjiang",
+        "platform": "X",
+        "likes": 5189,
+        "views": 1039978,
+        "date": "2026-09-24",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2102987203840466944/img/tlvgCuJLSqSy2piZ.jpg",
+        "sourceUrl": "https://x.com/andrewjiang/status/2102987981695132140"
+      },
+      {
+        "rank": 9,
+        "id": "lists-099",
+        "title": "复刻12小时视频流程",
+        "title_en": "Replicating the 12-hour video workflow",
+        "author": "@pleometric",
+        "platform": "X",
+        "likes": 4987,
+        "views": 722183,
+        "date": "2026-09-24",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2103081744408657920/img/AqJ7e2EYc2kKdp9C.jpg",
+        "sourceUrl": "https://x.com/pleometric/status/2103082510607610023"
+      },
+      {
+        "rank": 10,
+        "id": "lists-640",
+        "title": "三次提示制作发布短片",
+        "title_en": "A launch film in three prompts",
+        "author": "@uxmiles",
+        "platform": "X",
+        "likes": 4359,
+        "views": null,
+        "date": "2026-09-28",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2104617675125096449/img/A0FMnJHSH2lb-61q.jpg",
+        "sourceUrl": "https://twitter.com/uxmiles/status/2104618175803609305"
+      },
+      {
+        "rank": 11,
+        "id": "uc-0315",
+        "title": "以代码笔触讲述 Claude 的一生",
+        "title_en": "Claude’s life in coded brush strokes",
+        "author": "@shfred0",
+        "platform": "X",
+        "likes": 4183,
+        "views": 371021,
+        "date": "2026-09-22",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2102495951738822657/img/MzxuuvkAQ6e1w6mR.jpg",
+        "sourceUrl": "https://x.com/shfred0/status/2102495989194236158"
+      },
+      {
+        "rank": 12,
+        "id": "video-478",
+        "title": "短片《我从未见过太阳》",
+        "title_en": "Short 'I Have Never Seen the Sun'",
+        "author": "霍华德vlog",
+        "platform": "Bilibili",
+        "likes": 4096,
+        "views": 92303,
+        "date": "2026-09-30",
+        "poster": "https://i1.hdslb.com/bfs/archive/111bbcb46509463f7f1be3756f02305cd18c72e1.jpg",
+        "sourceUrl": "https://www.bilibili.com/video/BV1b9ad6xEnD"
+      },
+      {
+        "rank": 13,
+        "id": "uc-1614",
+        "title": "用 Runway MCP 制作超级智能纪录片",
+        "title_en": "A superintelligence documentary with Runway MCP",
+        "author": "@gavinpurcell",
+        "platform": "X",
+        "likes": 4060,
+        "views": 888111,
+        "date": "2026-09-25",
+        "poster": null,
+        "sourceUrl": "https://x.com/gavinpurcell/status/2103304514329854102"
+      },
+      {
+        "rank": 14,
+        "id": "uc-1770",
+        "title": "简历用十五秒动态设计片",
+        "title_en": "A fifteen-second résumé showreel",
+        "author": "@ajith_io",
+        "platform": "X",
+        "likes": 4041,
+        "views": 614134,
+        "date": "2026-09-25",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2103449259869863936/img/xFjCDtYklW-hfg7m.jpg",
+        "sourceUrl": "https://x.com/ajith_io/status/2103449416325890146"
+      },
+      {
+        "rank": 15,
+        "id": "uc-0534",
+        "title": "为情绪论文衍生歌曲配视频",
+        "title_en": "A video for a paper-inspired song",
+        "author": "@eudaemonea",
+        "platform": "X",
+        "likes": 3915,
+        "views": 1068316,
+        "date": "2026-09-23",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2102606787941736448/img/zvj6paWv8xVzy0rz.jpg",
+        "sourceUrl": "https://x.com/eudaemonea/status/2102610626321490404"
+      }
+    ],
+    "topByViews": [
+      {
+        "rank": 1,
+        "id": "gosail-001",
+        "title": "用共享提示词一夜生成的精致场景",
+        "title_en": "Elaborate overnight scene from shared prompt",
+        "author": "@anabology",
+        "platform": "X",
+        "likes": 14270,
+        "views": 19112010,
+        "date": "2026-09-25",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2103533196721704960/img/ILpk1iqxJsJGiDcK.jpg",
+        "sourceUrl": "https://x.com/anabology/status/2103534482930491441"
+      },
+      {
+        "rank": 2,
+        "id": "lists-010",
+        "title": "一句口述提示跑 12 小时的音乐视频",
+        "title_en": "Music video from one spoken prompt",
+        "author": "@donaldjewkes",
+        "platform": "X",
+        "likes": 10499,
+        "views": 3762560,
+        "date": "2026-09-23",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2102799458031534086/img/GBhRZ7O3fCXn59dk.jpg",
+        "sourceUrl": "https://x.com/donaldjewkes/status/2102801274173587569"
+      },
+      {
+        "rank": 3,
+        "id": "x-043",
+        "title": "Higgsfield MCP 集成",
+        "title_en": "Higgsfield MCP integration",
+        "author": "@higgsfield",
+        "platform": "X",
+        "likes": 1447,
+        "views": 2899046,
+        "date": "2026-09-22",
+        "poster": null,
+        "sourceUrl": "https://x.com/higgsfield/status/2102451022216179935"
+      },
+      {
+        "rank": 4,
+        "id": "uc-0155",
+        "title": "官方转发的西瓜故事短片",
+        "title_en": "An officially shared watermelon short",
+        "author": "@claudeai",
+        "platform": "X",
+        "likes": 11325,
+        "views": 1328585,
+        "date": "2026-09-22",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2102467313874178048/img/O2IOHN0jPHhbe1Zh.jpg",
+        "sourceUrl": "https://x.com/claudeai/status/2102471866635919731"
+      },
+      {
+        "rank": 5,
+        "id": "uc-0534",
+        "title": "为情绪论文衍生歌曲配视频",
+        "title_en": "A video for a paper-inspired song",
+        "author": "@eudaemonea",
+        "platform": "X",
+        "likes": 3915,
+        "views": 1068316,
+        "date": "2026-09-23",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2102606787941736448/img/zvj6paWv8xVzy0rz.jpg",
+        "sourceUrl": "https://x.com/eudaemonea/status/2102610626321490404"
+      },
+      {
+        "rank": 6,
+        "id": "uc-1221",
+        "title": "展望未来五十年的影片",
+        "title_en": "A film imagining the next fifty years",
+        "author": "@andrewjiang",
+        "platform": "X",
+        "likes": 5189,
+        "views": 1039978,
+        "date": "2026-09-24",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2102987203840466944/img/tlvgCuJLSqSy2piZ.jpg",
+        "sourceUrl": "https://x.com/andrewjiang/status/2102987981695132140"
+      },
+      {
+        "rank": 7,
+        "id": "lists-006",
+        "title": "无缝 UI 形变循环动效",
+        "title_en": "Seamless UI morph loop",
+        "author": "@twoclipping",
+        "platform": "X",
+        "likes": 12016,
+        "views": 1012809,
+        "date": "2026-09-24",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2103272964967804928/img/DTuQzS4NOGKMbTDA.jpg",
+        "sourceUrl": "https://x.com/twoclipping/status/2103273003555402193"
+      },
+      {
+        "rank": 8,
+        "id": "uc-1614",
+        "title": "用 Runway MCP 制作超级智能纪录片",
+        "title_en": "A superintelligence documentary with Runway MCP",
+        "author": "@gavinpurcell",
+        "platform": "X",
+        "likes": 4060,
+        "views": 888111,
+        "date": "2026-09-25",
+        "poster": null,
+        "sourceUrl": "https://x.com/gavinpurcell/status/2103304514329854102"
+      },
+      {
+        "rank": 9,
+        "id": "gosail-003",
+        "title": "After Effects制作的产品发布视频",
+        "title_en": "AI product launch video via After Effects",
+        "author": "@higgsfield_ai",
+        "platform": "X",
+        "likes": 2406,
+        "views": 820503,
+        "date": "2026-09-26",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2103875019357233152/img/ykVXWc1u6mbqPgE2.jpg",
+        "sourceUrl": "https://x.com/higgsfield_ai/status/2103875279588602225"
+      },
+      {
+        "rank": 10,
+        "id": "uc-2272",
+        "title": "歌曲、视频与幕后访谈的模型自我介绍",
+        "title_en": "A musical self-introduction and behind-the-scenes interview",
+        "author": "@johnknopf",
+        "platform": "X",
+        "likes": 3007,
+        "views": 751714,
+        "date": "2026-09-26",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2103697667910168576/img/cqLRqTw7vVpTectN.jpg",
+        "sourceUrl": "https://x.com/johnknopf/status/2103698854399099057"
+      },
+      {
+        "rank": 11,
+        "id": "lists-212",
+        "title": "舞蹈视频的四模型分工",
+        "title_en": "Four-model dance-video workflow",
+        "author": "@sankakuten91256",
+        "platform": "X",
+        "likes": 3699,
+        "views": 724017,
+        "date": "2026-09-25",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2103482017799352320/img/laUgaLmjnjHU8yEP.jpg",
+        "sourceUrl": "https://x.com/sankakuten91256/status/2103483923783373039"
+      },
+      {
+        "rank": 12,
+        "id": "lists-099",
+        "title": "复刻12小时视频流程",
+        "title_en": "Replicating the 12-hour video workflow",
+        "author": "@pleometric",
+        "platform": "X",
+        "likes": 4987,
+        "views": 722183,
+        "date": "2026-09-24",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2103081744408657920/img/AqJ7e2EYc2kKdp9C.jpg",
+        "sourceUrl": "https://x.com/pleometric/status/2103082510607610023"
+      },
+      {
+        "rank": 13,
+        "id": "lists-007",
+        "title": "JS 逐帧绘制的动画短片",
+        "title_en": "JS-drawn animated short",
+        "author": "@kevin_t_ngo",
+        "platform": "X",
+        "likes": 6076,
+        "views": 644579,
+        "date": "2026-09-22",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2102437792425070592/img/H7fyRYmlzFr2osoV.jpg",
+        "sourceUrl": "https://x.com/kevin_t_ngo/status/2102437977435893771"
+      },
+      {
+        "rank": 14,
+        "id": "uc-1377",
+        "title": "用代码重现奥斯特里茨战役",
+        "title_en": "A coded film of Austerlitz",
+        "author": "@WinterArc2125",
+        "platform": "X",
+        "likes": 2622,
+        "views": 635081,
+        "date": "2026-09-24",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2103113452726140928/img/cjQI93QJwNev_gQ1.jpg",
+        "sourceUrl": "https://x.com/WinterArc2125/status/2103116235009347650"
+      },
+      {
+        "rank": 15,
+        "id": "uc-1770",
+        "title": "简历用十五秒动态设计片",
+        "title_en": "A fifteen-second résumé showreel",
+        "author": "@ajith_io",
+        "platform": "X",
+        "likes": 4041,
+        "views": 614134,
+        "date": "2026-09-25",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2103449259869863936/img/xFjCDtYklW-hfg7m.jpg",
+        "sourceUrl": "https://x.com/ajith_io/status/2103449416325890146"
+      }
+    ]
+  },
+  "overallDateRange": {
+    "min": "2026-09-09",
+    "max": "2026-10-01",
+    "withDate": 5137,
+    "missingDate": 44
+  }
+}

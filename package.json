@@ -1,0 +1,13 @@
+{
+  "name": "opus55-video",
+  "private": true,
+  "type": "module",
+  "description": "Code-rendered explainer: why Opus 5.5 videos look so good, and how beginners can make one",
+  "scripts": {
+    "still": "node tools/still.mjs",
+    "render": "node tools/render.mjs"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.63.0"
+  }
+}

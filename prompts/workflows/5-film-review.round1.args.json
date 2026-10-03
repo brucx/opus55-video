@@ -1,0 +1,145 @@
+{
+ "round": 1,
+ "sheets": [
+  "/home/box/orca/projects/opus55-video/render/review/film-0.jpg",
+  "/home/box/orca/projects/opus55-video/render/review/film-1.jpg",
+  "/home/box/orca/projects/opus55-video/render/review/film-2.jpg",
+  "/home/box/orca/projects/opus55-video/render/review/film-3.jpg",
+  "/home/box/orca/projects/opus55-video/render/review/film-4.jpg"
+ ],
+ "scenes": [
+  {
+   "id": "s01_cold",
+   "start": 0,
+   "dur": 8,
+   "transition": "cut"
+  },
+  {
+   "id": "s02_title",
+   "start": 8,
+   "dur": 8.5,
+   "transition": "cut"
+  },
+  {
+   "id": "s03_text",
+   "start": 16.5,
+   "dur": 10.5,
+   "transition": "wipe"
+  },
+  {
+   "id": "s04_render",
+   "start": 27,
+   "dur": 18,
+   "transition": "zoom"
+  },
+  {
+   "id": "s05_wall",
+   "start": 45,
+   "dur": 11,
+   "transition": "wipe"
+  },
+  {
+   "id": "s06_c1",
+   "start": 56,
+   "dur": 11,
+   "transition": "zoom"
+  },
+  {
+   "id": "s07_c2",
+   "start": 67,
+   "dur": 10.5,
+   "transition": "push"
+  },
+  {
+   "id": "s08_c3",
+   "start": 77.5,
+   "dur": 10,
+   "transition": "push"
+  },
+  {
+   "id": "s09_c4",
+   "start": 87.5,
+   "dur": 11.5,
+   "transition": "push"
+  },
+  {
+   "id": "s10_c5",
+   "start": 99,
+   "dur": 11.5,
+   "transition": "push"
+  },
+  {
+   "id": "s11_c6",
+   "start": 110.5,
+   "dur": 11,
+   "transition": "push"
+  },
+  {
+   "id": "s12_c7",
+   "start": 121.5,
+   "dur": 12,
+   "transition": "push"
+  },
+  {
+   "id": "s13_c8",
+   "start": 133.5,
+   "dur": 12,
+   "transition": "push"
+  },
+  {
+   "id": "s14_formula",
+   "start": 145.5,
+   "dur": 13,
+   "transition": "iris"
+  },
+  {
+   "id": "s15_env",
+   "start": 158.5,
+   "dur": 12,
+   "transition": "wipe"
+  },
+  {
+   "id": "s16_routes",
+   "start": 170.5,
+   "dur": 17.5,
+   "transition": "wipe-up"
+  },
+  {
+   "id": "s17_prompt",
+   "start": 188,
+   "dur": 12,
+   "transition": "wipe-up"
+  },
+  {
+   "id": "s18_sample",
+   "start": 200,
+   "dur": 6,
+   "transition": "wipe-up"
+  },
+  {
+   "id": "s19_feedback",
+   "start": 206,
+   "dur": 12,
+   "transition": "wipe-up"
+  },
+  {
+   "id": "s20_ship",
+   "start": 218,
+   "dur": 14,
+   "transition": "wipe-up"
+  },
+  {
+   "id": "s21_meta",
+   "start": 232,
+   "dur": 14.5,
+   "transition": "wipe"
+  },
+  {
+   "id": "s22_end",
+   "start": 246.5,
+   "dur": 8.5,
+   "transition": "iris"
+  }
+ ],
+ "notes": "Known and already handled elsewhere — do not report: (1) {{RENDER_MIN}} in s21 is unfilled in this render; the final render fills it (7.1). (2) Audio/voice quality and SFX loudness are checked separately (you cannot hear). (3) Case scenes s06–s13 share src/scenes/case.js; report their issues with the scene id and they will be routed to the template owner. Fixers must not edit case.js, engine, kit, shared libs, narration or clips — report such needs as outside."
+}

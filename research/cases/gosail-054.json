@@ -1,0 +1,84 @@
+{
+  "caseId": "gosail-054",
+  "author": "@yoshifujidesign（FUJI / Presentation designer）",
+  "postUrl": "https://x.com/yoshifujidesign/status/2103988134069617127",
+  "videoFile": "/home/box/orca/projects/opus55-video/assets/cases/gosail-054.mp4",
+  "duration": 30.047,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "hasAudio": true,
+  "postTextZh": "用 Opus 5.5 做的 PV，又一个不同风格的版本。比起只靠提示词，有了 3D 数据，产品部分不会走样，可以放心展开多个变体。",
+  "promptFile": "",
+  "promptSummaryZh": "",
+  "highlights": [
+    {
+      "file": "/home/box/orca/projects/opus55-video/assets/cases/gosail-054.mp4",
+      "start": 18.5,
+      "end": 21.95,
+      "onScreen": "爆炸开的零件层像透明卡片一样并排，再合拢成一部线稿手机（18.5–19.0 秒）。底部出现一条标着“RENDER xx%”的橙色扫描线，从下往上扫：线以下变成写实渲染（黑色玻璃、钛金属侧边和高光），线以上仍是线稿。21.0 秒后整机渲染完成，缓慢转动。",
+      "motion": "层叠卡片合拢；扫描线约在 19.25–21.0 秒自下而上匀速擦除，同时机身缓慢旋转。段内无硬切（22.0 秒切到 Graphite 配色）。",
+      "colors": "暖灰纸色底、黑色细线、橙色扫描线；渲染部分是黑色玻璃和银灰金属",
+      "subjectPosition": "竖屏居中，手机约占 x 28–71%、y 24–75%；字幕在左下（y≈86–90%），HUD 在四角。放进 16:9 时可以整幅竖屏放在一侧，或取中部 1080×1080 方形（会裁掉底部字幕）。",
+      "textOnScreen": "ÉPURE；FIG. 04 ASSEMBLAGE；RENDER 46%（百分比随扫描线变化）；184の部品がひとつになる；184 → 1；T+19.xx–21.xx 时间码",
+      "bestUse": "hook 蒙太奇里的“哇”时刻，或讲“3D 数据作为固定输入”时的主画面",
+      "score": 10
+    },
+    {
+      "file": "/home/box/orca/projects/opus55-video/assets/cases/gosail-054.mp4",
+      "start": 4.4,
+      "end": 9.95,
+      "onScreen": "线稿手机从正面立面图转成约 45° 的轴测视角，然后逐层爆炸：屏幕、主板、电池、中框、相机模组、无线充电线圈、背板、镜头组依次分开，每层都有编号引线标注（01 DISPLAY 6.3\" LTPO OLED … 11 LENS STACK ƒ/1.6）。8.0 秒起左下出现大号“184 / PARTS — 11 LAYERS”。",
+      "motion": "4.0–5.0 秒 3D 旋转；5.5–8.0 秒分层爆炸，引线标注依次出现；之后整体缓慢漂移。段内无硬切（10.0 秒以一帧白闪切到规格段）。",
+      "colors": "暖灰纸色、黑色线稿、零件中心的小橙点",
+      "subjectPosition": "爆炸图几乎占满宽度（x≈5–95%），纵向约 y 14–76%；“184”大数字在左下（y≈83–91%）。16:9 中建议整幅竖屏放置；方形裁切会切掉两侧标注。",
+      "textOnScreen": "ÉPURE；FIG. 02 VUE ÉCLATÉE；01 DISPLAY 6.3\" LTPO OLED — 1-120 Hz；02 LOGIC BOARD É1 CHIP — 3 nm；03 BATTERY 5,000 mAh — STACKED CELL；05 FRAME GRADE 5 TITANIUM；06 CAMERA SYSTEM 48 MP × 3 — 1/1.3\" SENSOR；07 WIRELESS COIL 25 W MAGNETIC；09 BACK GLASS MATTE CERAMIC GLASS；11 LENS STACK ƒ/1.6 — 7 ELEMENTS；184 PARTS — 11 LAYERS（全部为概念片的虚构参数）",
+      "bestUse": "案例卡主画面或背景：展示“有 3D 模型就能拆解、标注”的工程图纸风格；标注字很小，作背景时不要求观众去读",
+      "score": 9
+    },
+    {
+      "file": "/home/box/orca/projects/opus55-video/assets/cases/gosail-054-b.mp4",
+      "start": 0.0,
+      "end": 6.3,
+      "onScreen": "【gosail-054-b.mp4，追加版 plume】浅蓝底上，一部扁平插画风的蓝色手机（锁屏 12:30）缓慢转动。一条深蓝手写笔画从左侧进入，绕手机一圈，然后用连笔写出“allure”；4.0–4.5 秒手机 3D 翻面，露出三摄背面。随后画面整体左推，同一条线越过接缝时由蓝变红、绕成圆圈，把观众带进米色底、珊瑚色手机的下一个场景。",
+      "motion": "笔画沿路径逐步生长（手写动画），手机 3D 翻转，横向推移转场；线条跨场景连续，全段无硬切。",
+      "colors": "雾蓝底配深蓝笔画；转场后是米色底、珊瑚红手机和红色笔画",
+      "subjectPosition": "手机居中（x≈26–74%，y≈26–77%），手写字横跨中部（y≈35–56%），底部文案在左下（y≈89–93%）。16:9 中整幅竖屏放置效果最好。",
+      "textOnScreen": "plume.；CONCEPT FILM — 2026；allure（手写）；ポケットにアトリエを；COULEUR 01 — FJORD；12:30（锁屏）",
+      "bestUse": "案例卡里与 ÉPURE 并排，展示“同一产品、完全不同的风格”；也适合放进 hook 蒙太奇，作为“手写生长”的镜头",
+      "score": 9
+    },
+    {
+      "file": "/home/box/orca/projects/opus55-video/assets/cases/gosail-054.mp4",
+      "start": 0.2,
+      "end": 4.4,
+      "onScreen": "空白的暖灰纸面上，一条带百分比读数的橙色横线从左侧画入，然后自下而上移动，线经过的地方留下手机背面的黑色线稿（相机模组、无线充电线圈、按键），字幕“すべては一本の線から / Drawn to the last line.”；4.0 秒起线稿开始在 3D 中转动。",
+      "motion": "扫描线约在 0.75–2.25 秒自下而上逐步“画出”线稿，随后静止约 1.5 秒，4.0 秒起缓慢 3D 旋转；无硬切。",
+      "colors": "暖灰纸色、黑色线稿、橙色扫描线",
+      "subjectPosition": "手机线稿居中（x≈32–70%，y≈22–69%）；字幕在左下（y≈83–87%）",
+      "textOnScreen": "ÉPURE；FIG. 01 ÉLÉVATION；すべては一本の線から；Drawn to the last line.；扫描线旁的百分比读数（如 1.25 秒时为 46%）；T+00.00 起的时间码",
+      "bestUse": "hook 开场，或讲“一条线贯穿全片”时使用；和 18.5–21.95 秒的 RENDER 扫描线前后对照，说明同一个视觉母题首尾呼应",
+      "score": 8
+    },
+    {
+      "file": "/home/box/orca/projects/opus55-video/assets/cases/gosail-054-b.mp4",
+      "start": 23.2,
+      "end": 29.6,
+      "onScreen": "【gosail-054-b.mp4】淡紫场景滑出，蓝、红、绿三部手机从右下飞入并排站好。一条深蓝笔画先绕出一道大弧线，再用连笔写出品牌名“plume”；顶部出现“暮らしを描くスマートフォン”，底部出现机型名 FJORD / LINGON / SKOG 和“2026.12 — DÉBUT”。最后笔画收成一道下划线，整体淡出。",
+      "motion": "23.5–24.3 秒三机飞入落位；24.3–28.0 秒笔画生长写字；28.7–29.8 秒收尾下划线并淡出；无硬切。",
+      "colors": "米白底，雾蓝、珊瑚红、灰绿三色机身，深海军蓝笔画",
+      "subjectPosition": "手写 plume 在上部（y≈18–41%），三机一字排开在中部（x≈8–92%，y≈46–75%），标语在顶部居中（y≈12%），日期在底部居中（y≈90–92%）",
+      "textOnScreen": "plume.；CONCEPT FILM — 2026；暮らしを描くスマートフォン；plume（手写）；FJORD / LINGON / SKOG；2026.12 — DÉBUT；#plumeのある毎日",
+      "bestUse": "案例卡结尾或系列对比画面：三台同款机身并排，正好说明“固定产品，改变配色与演出”",
+      "score": 8
+    }
+  ],
+  "heroStill": {
+    "t": 20.3,
+    "description": "FIG. 04 ASSEMBLAGE：一条标着“RENDER 46%”的橙色扫描线横穿手机，线以上仍是黑色线稿，线以下已变成写实的黑色玻璃和钛金属边框；下方字幕“184の部品がひとつになる / 184 → 1”。一帧说清“同一个 3D 模型，从线稿到成片”。全分辨率帧已存为 /home/box/orca/projects/opus55-video/research/cases/sheets/gosail-054-hero-20.30s.png。"
+  },
+  "whyCoolZh": "①一条线贯穿全片：开场一条带百分比的橙色扫描线自下而上“画”出手机线稿立面图（字幕“すべては一本の線から”）；19.2–21 秒，同样的橙线标着“RENDER 46%”再扫一遍，线稿在扫过的地方变成写实渲染，把“3D 数据→成片”的过程本身拍成了画面。②线稿在 3D 中转动，逐层爆炸成 11 层零件，编号引线标注（01 DISPLAY … 11 LENS STACK）依次出现，左下是大数字“184 PARTS — 11 LAYERS”；之后零件像透明卡片一样展开再合拢（“184の部品がひとつになる”）。有真实的 3D 模型，才能这样拆、转、合而不变形。③0–10 秒和 16–22 秒都是不切镜的连续变化；中间三个 2 秒的规格节拍（0→48 MP、0→5,000 mAh、0→3 nm 计数，镜头飞到对应零件的橙色线稿特写）用一帧白闪硬切。所有切换都落在 2 秒网格上，音乐约 120 BPM。④整片像一份会动的技术图纸：暖灰纸色、黑色细线，只用一种橙色；角落的 HUD 写着 FIG. 01–06 和 T+ 时间码，时间码与视频时间逐帧一致（T+02.50、T+13.70……），直观体现了“按时间计算每一帧”。⑤追加版 plume 换成粉彩扁平插画：一条连续的手写笔画在手机上写出 allure、lueur、couleur、calme，再绕成圆圈跨过画面接缝、边走边变色，把观众带进下一个配色场景；扁平画风里的手机仍能真实地 3D 翻面。⑥算上同一串帖子里更早的 NAMI（暗黑高光）和 plume（羽毛插画）两版，四支片的机身比例和三摄模组目测一致，风格却完全不同，正是作者说的“有 3D 数据，产品不走样”。",
+  "takeawayZh": "手里有产品的 3D 模型、Logo 或标准图时，把它们当成“不许改”的输入，只让 AI 改镜头、光线、配色、字体和转场；每次只换一条风格规则（比如“工程图纸：黑线加一种橙色加编号标注”，或“用一笔手写线串起所有场景”），就能稳定地做出一系列变体。",
+  "evidenceLimitsZh": "①作者没有公开提示词、工程文件或工具链。系列首帖说“3D 数据”是 Blender 建模数据，但画面在哪个工具里渲染（Blender、浏览器 3D 或其他）、Opus 具体写了什么、模型是不是作者自制，都没有说明。②“产品部分不走样”“细致指令能准确生效”是作者的使用感受；本轮只目测了四个版本外形一致，没有做几何测量，也无法确认有没有人工修图或后期。③ÉPURE、plume、NAMI 都是概念片（画面标注 CONCEPT FILM — 2026），片中的芯片、像素、电池参数和 2026.12 上市等字样都是设计文案，不是真实产品信息。④音轨来源未说明；信号分析只显示主帖音乐约 120 BPM、段落切换落在 2 秒网格上，没有听辨。⑤源文章没有对本案做视觉检查；本轮的观察来自 1080×1920 原片的逐帧抽样，不是完整的实时播放。",
+  "notes": "作者原文与中文译文（含整串 4 帖）见 /home/box/orca/projects/opus55-video/research/cases/gosail-054-posts.txt。下载（均为 1080×1920、30 fps、900 帧、30.0 s，AAC 立体声）：主帖 → gosail-054.mp4（ÉPURE，工程图纸风）；追加帖 2103989912676741479 → /home/box/orca/projects/opus55-video/assets/cases/gosail-054-b.mp4（plume，一笔手写线，368 赞，比主帖热门）；另外下载了同一引用链里更早的两支作为对比素材（不在案例库中）：2103987596301119645 → gosail-054-pre1.mp4（NAMI，暗黑高光“ギラついた”版，约每 1.87 秒一切），2103987783601987776 → gosail-054-pre2.mp4（plume，羽毛插画版）。备选片段：主帖 12.0–13.95 秒（0→5,000 mAh 计数配橙色线圈特写，单个 2 秒节拍，无切点，7 分）；主帖 22.0–28.0 秒三种配色 Graphite / Craie / Signal（每 2 秒一切，6 分）；pre1 22.6–25.9 秒（三色机身扇形展开，背后是立体 NAMI 大字，屏幕为浮世绘浪花，9 分）；pre1 5.65–7.45 秒（48MP ×3 镜头微距，8 分）；pre1 13.1–14.5 秒有快速闪白和速度线，复用要注意光敏风险。四版对比图（同一三摄机身、四种画风）：/home/box/orca/projects/opus55-video/research/cases/sheets/gosail-054-variants-camera.jpg，适合做“固定产品、改变演出”的案例卡（16:9 中可并排放 3 支竖屏）。主帖切点只有 22、24、26、28 秒（配色和 Logo），另有 10、12、14、16 秒四处一帧白闪硬切；追加版全片没有硬切（场景用推移和圆圈转场衔接）。抽帧图在 /home/box/orca/projects/opus55-video/research/cases/sheets/gosail-054*.jpg。"
+}

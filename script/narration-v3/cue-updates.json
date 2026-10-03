@@ -1,0 +1,32 @@
+[
+ {
+  "scene": "s04_render",
+  "file": "src/scenes/s04_render.js",
+  "line": 193,
+  "oldWord": "左边",
+  "newWord": "这",
+  "where": "timing(): zuobian: w(2, '左边') -> T.glide / T.panel / T.type0 / T.play (preview slides right, code panel types)",
+  "required": false,
+  "note": "s04_render.2 is now 「这一幕，也是代码算出来的。」. Until the edit, word() falls back to the line start, 5.11 s, which is exactly where 左边 was, so nothing moves. 这 is the line's first TTS token (这|一|幕…) and occurs once. daima2 (代码) is still spoken: 6.23 s (was 6.92)."
+ },
+ {
+  "scene": "s17_prompt",
+  "file": "src/scenes/s17_prompt.js",
+  "line": 87,
+  "oldWord": "每屏",
+  "newWord": "每个",
+  "where": "build(): one: ctx.word(L2, '每屏') -> T.one (rule key mark + badge tick, caret stop, AFTER bump and ring)",
+  "required": true,
+  "note": "s17_prompt.2 now says 「每个画面一个主信息」. 每个 is one TTS token, occurs once in the line, and lands 3.05 s into the line, the same offset 每屏 had (3.04 s). Without the edit T.one falls back to the line start, 3.05 s early, on 风格. The on-screen rule text 「每屏一个主信息」 can stay."
+ },
+ {
+  "scene": "s17_prompt",
+  "file": "src/scenes/s17_prompt.js",
+  "line": 403,
+  "oldWord": "每屏",
+  "newWord": "每个",
+  "where": "events(): out.push({ t: ctx.word(L2, '每屏'), type: 'ding', gain: 0.45 })",
+  "required": true,
+  "note": "Same word as line 87. Without the edit the ding fires 3.05 s early."
+ }
+]

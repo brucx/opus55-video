@@ -1,0 +1,145 @@
+{
+ "round": 2,
+ "sheets": [
+  "/home/box/orca/projects/opus55-video/render/review2/film-0.jpg",
+  "/home/box/orca/projects/opus55-video/render/review2/film-1.jpg",
+  "/home/box/orca/projects/opus55-video/render/review2/film-2.jpg",
+  "/home/box/orca/projects/opus55-video/render/review2/film-3.jpg",
+  "/home/box/orca/projects/opus55-video/render/review2/film-4.jpg"
+ ],
+ "scenes": [
+  {
+   "id": "s01_cold",
+   "start": 0,
+   "dur": 8,
+   "transition": "cut"
+  },
+  {
+   "id": "s02_title",
+   "start": 8,
+   "dur": 8.5,
+   "transition": "cut"
+  },
+  {
+   "id": "s03_text",
+   "start": 16.5,
+   "dur": 10.5,
+   "transition": "wipe"
+  },
+  {
+   "id": "s04_render",
+   "start": 27,
+   "dur": 18,
+   "transition": "zoom"
+  },
+  {
+   "id": "s05_wall",
+   "start": 45,
+   "dur": 11,
+   "transition": "wipe"
+  },
+  {
+   "id": "s06_c1",
+   "start": 56,
+   "dur": 11,
+   "transition": "zoom"
+  },
+  {
+   "id": "s07_c2",
+   "start": 67,
+   "dur": 10.5,
+   "transition": "push"
+  },
+  {
+   "id": "s08_c3",
+   "start": 77.5,
+   "dur": 10.5,
+   "transition": "push"
+  },
+  {
+   "id": "s09_c4",
+   "start": 88,
+   "dur": 12.5,
+   "transition": "push"
+  },
+  {
+   "id": "s10_c5",
+   "start": 100.5,
+   "dur": 11.5,
+   "transition": "push"
+  },
+  {
+   "id": "s11_c6",
+   "start": 112,
+   "dur": 11,
+   "transition": "push"
+  },
+  {
+   "id": "s12_c7",
+   "start": 123,
+   "dur": 12,
+   "transition": "push"
+  },
+  {
+   "id": "s13_c8",
+   "start": 135,
+   "dur": 12,
+   "transition": "push"
+  },
+  {
+   "id": "s14_formula",
+   "start": 147,
+   "dur": 13,
+   "transition": "iris"
+  },
+  {
+   "id": "s15_env",
+   "start": 160,
+   "dur": 12,
+   "transition": "wipe"
+  },
+  {
+   "id": "s16_routes",
+   "start": 172,
+   "dur": 17.5,
+   "transition": "wipe-up"
+  },
+  {
+   "id": "s17_prompt",
+   "start": 189.5,
+   "dur": 12,
+   "transition": "wipe-up"
+  },
+  {
+   "id": "s18_sample",
+   "start": 201.5,
+   "dur": 7,
+   "transition": "wipe-up"
+  },
+  {
+   "id": "s19_feedback",
+   "start": 208.5,
+   "dur": 12,
+   "transition": "wipe-up"
+  },
+  {
+   "id": "s20_ship",
+   "start": 220.5,
+   "dur": 15.5,
+   "transition": "wipe-up"
+  },
+  {
+   "id": "s21_meta",
+   "start": 236,
+   "dur": 14.5,
+   "transition": "wipe"
+  },
+  {
+   "id": "s22_end",
+   "start": 250.5,
+   "dur": 8.5,
+   "transition": "iris"
+  }
+ ],
+ "notes": "ROUND 2 (after fixes). The current render is v2. Focus: (a) the REDESIGNED case section s06–s13 (footage-first openings, proof strips, layouts A/B, s11 triptych, s10 lilac honesty banner) — nobody but its author has reviewed it; (b) regressions anywhere from round-1 fixes; (c) anything still blocking a 小白 from understanding WHY and HOW. Report only blocker/major/minor (polish only if trivial). Known and handled elsewhere — do not report: the render-time number in s21 (it shows the previous render time by design, labelled 约); audio quality (checked separately). Fixers must not edit the engine, kit, shared libs, narration lines or clips — report such needs as outside. Case-template issues go to a dedicated case fixer."
+}

@@ -1,0 +1,82 @@
+[
+ {
+  "scene": "s06_c1–s13_c8 (case.js → template owner)",
+  "t": "abs 56.0–145.5 s; attention drops ≈88–133 s (cases 4–7)",
+  "severity": "major",
+  "problem": "89.5 s (35 % of the film) is one layout repeated 8×: same card position, same push, same 9–10 item right column (CASE tag, title, @handle, route chip, caveat, 炫在哪里, secret, 1–2 bullets, 可以照搬 box). That column is ~80–95 CJK chars per case; by G3 it needs ~18–21 s, but each scene lasts 10–12 s and the viewer is also watching footage and reading subtitles. The footage, which is why people clicked, gets 27 % of the frame (16:9 1000×562), 19 % (1:1 620×620) or 12 % (9:16 372×662). By case 4 the format is fully predictable; this is the only stretch that feels templated.",
+  "fix": "(1) Open each case on the footage: from local 0 to (secret cue − 0.3 s), play the first clip at ≈1312×738 centred in the content box (y 141–879, letterbox 1:1/9:16), then shrink into the card over 0.5 s outCubic; the column starts after. (2) Text budget ≤ 4 blocks at once: merge '@handle · 路线 · caveat' into one 20-px fog line; drop the 炫在哪里/可以照搬 labels (lime secret and green box already mark them); show bullets one at a time (each replaces the previous) and dim them to 30 % when the takeaway lands. (3) Break the rhythm: mirror the layout on even cases (card cx 1288, column x 112), or give cases 05–08 a lilac accent. (4) Use the dead space: 1:1 card 620 → 700 px, 9:16 372×662 → 412×732.",
+  "lens": "viewer"
+ },
+ {
+  "scene": "s06_c1 · s07_c2 · s08_c3 · s10_c5 (case.js → template owner)",
+  "t": "abs 56–110.5 s",
+  "severity": "major",
+  "problem": "Each 招 is stated in text but never demonstrated, so a 小白 has to take it on faith. s07 says 「60 秒里，暖光只亮 9 秒」 but nothing shows 9 of 60 s. s08 says 「画面、旁白、配乐分层做」 over a word-graph clip where no layers are visible. s06's 按钮→播放器→图表→命令面板 chain is a bullet, not a visual. s10's 「首页、搜索、复制提示词」 is a bullet even though the clips play in exactly that order.",
+  "fix": "Add one optional data-driven 'proof' graphic per case in the strip between the card bottom (y≈796) and the pager dots (y≈830), or replace the dots row.\n- s07: 1000×14 px bar = 60 s with an amber #F2B880 segment at x 775–925 (the measured warm window 46.5–55.5 s, research/brief.md). A playhead follows the clip's source time (tree 19.9–24.3, then light 46.3–51.0), so it enters the amber exactly when the warm light plays.\n- s08: three 8-px lanes 画面/旁白/配乐 with independent blocks and one shared playhead, labelled 「一条时间轴」.\n- s06: four 20-px chips 按钮 → 播放器 → 图表 → 命令面板 that light as the morph reaches each state.\n- s10: chips 首页 → 搜索 → 复制提示词 that light with clips c5-072-home/search/prompt.",
+  "lens": "viewer"
+ },
+ {
+  "scene": "s07_c2 … s13_c8 (case.js template, route to template owner)",
+  "t": "each push, e.g. abs 77.75–78.30 (s08 local 0.25–0.80); same at 67, 87.5, 99, 110.5, 121.5, 133.5",
+  "severity": "minor",
+  "problem": "The series-dot row, whose lime active dot is the storyboard's through-object in s06–s13, disappears at every case change. The outgoing page's dots slide out with the push. The incoming page's dots stay at opacity 0 until local 0.6 s and fade in over 0.5 s (case.js line 113: o = zoomIn ? 1 : prog(t, 0.6, 0.5)). So for about 0.5–0.7 s around each of the 7 pushes there is no dot row (for example nothing at 78.0–78.1, faint at 78.2).",
+  "fix": "OUTSIDE (case.js line 113, template owner): use full dot opacity for 'push' as well as 'zoom', i.e. o = 1 whenever the transition is push or zoom. The incoming dot row, with its next dot active, then slides in with the page while the old row slides out, and the indicator never disappears.",
+  "lens": "continuity"
+ },
+ {
+  "scene": "s08_c3 / s09_c4 (outside: narration.json lines + case data)",
+  "t": "abs 82.8–86.6 s; abs 95.0–98.5 s",
+  "severity": "minor",
+  "problem": "The 照搬 line doesn't follow from the trick just shown, so a 小白 can't connect them. s08: 招 = 画面、旁白、配乐分层做 → 照搬 = 先写分镜，每场先出几张截图检查. s09: 招 = 用真实数据当约束 → 照搬 = 提示词只写意图和不想要的效果.",
+  "fix": "Align each takeaway with its trick, in both the voice line and the box:\n- s08: 「照搬：画面、旁白、配乐分开做，对齐同一条时间轴」\n- s09: 「照搬：找一份真实数据（地形、坐标、真实网页），让画面跟着数据走」 (brief.md §4 item 6)\n\nThe current lines fit naturally into s17/s19 if you want to keep them.",
+  "lens": "viewer"
+ },
+ {
+  "scene": "s10_c5",
+  "t": "abs 108.1–110.5 (local 9.1–11.5)",
+  "severity": "minor",
+  "problem": "Frozen stretch of ≈2.4 s, the only one over 2 s in the film. c5-072-brand finishes its type-in and thumbnail pop by local ≈9.1, and the source is static from there (gosail-072 ends at 30.1 s). The right column has been settled since the takeaway (106.84). Only the 2.5 % push-in moves while 「配一段真实界面」 is spoken, until the push transition at 110.5.",
+  "fix": "Outside (narration.json data, case template): give the prompt clip a longer duration, {\"id\":\"c5-072-prompt\",\"dur\":4.5}. Its last frame (the red-boxed prompt) then holds 1.0 s while the takeaway box rises at 106.84, and the brand card starts at local 8.6 (107.6). Its type-in and thumbnail pop then land on 「每个卖点，配一段真实界面」 (107.68–109.46) and the static tail drops to ≈1.4 s. Alternative in case.js: add a slow Ken Burns (scale 1.00→1.05 plus a 20 px pan) on the card image whenever a clip is past its natural length.",
+  "lens": "sync"
+ },
+ {
+  "scene": "s10_c5",
+  "t": "99.0–101.4 s absolute (clip c5-072-home)",
+  "severity": "polish",
+  "problem": "The credit chip (.k-credit at rgba(10,8,9,.72)) sits on the GoodCase home page's black 「热门」 filter button and the 「稳定度」 outline. The button block, its border lines and a stray 「热」 show behind 「@aiwarts 原作片段」, so the credit is legible but cluttered. The later c5 clips (from 101.4 s) are clean.",
+  "fix": "Outside scene scope; route to the case.js/styles.css owner. Either raise `.k-credit` background to about rgba(10,8,9,.9) and add a 1 px hairline (`box-shadow: 0 0 0 1px rgba(255,255,255,.12)`), or let case data place the chip top-left for c5-072-home (the top-left of that crop is plain white page).",
+  "lens": "facts"
+ },
+ {
+  "scene": "s10_c5 (case.js → template owner)",
+  "t": "abs 99.0–104.7 s",
+  "severity": "minor",
+  "problem": "The voice says 「后四招，画面里还用了现成素材或别的模型」, an important honesty pivot, but the screen shows only case 05's header. The lower right column is empty for ~4.5 s and nothing marks 05–08 as a different group, so the later 「据作者…AI 生成」 lines feel like they contradict the cold open.",
+  "fix": "From local 0.4 s to 「第五」 (abs 103.84), show a lilac chip under the rule (x 1212, y≈450, 30 px): 「后 4 招 · 05–08：画面里有现成素材或别的模型」. Tint pager dots 5–8 lilac at the same time. Collapse the chip into the caveat line as 炫在哪里 lands, and keep dots 5–8 lilac through s11–s13.",
+  "lens": "viewer"
+ },
+ {
+  "scene": "s11_c6 (case.js → template owner)",
+  "t": "abs 110.5–121.5 s",
+  "severity": "minor",
+  "problem": "The 9:16 card is 372×662 (12 % of the frame), with ~330–390 px of empty dark on each side. The three style clips (line / render / plume) play one after another, so 「产品不动，只换演出」 / 「同一模型换一版风格」 is never visible at a glance.",
+  "fix": "For 9:16 cases with ≥ 2 clips, lay the clips out as a looping triptych: 3 × 300×533 at x 152–1092 (20-px gaps), y 248–781, each with its own credit chip. Highlight the clip the voice is describing (scale 1.04 + lime rim). Seeing the styles side by side proves the trick.",
+  "lens": "viewer"
+ },
+ {
+  "scene": "s12_c7",
+  "t": "abs 128.73–129.47 (local 7.23–7.97)",
+  "severity": "minor",
+  "problem": "The voice says 「骨架数据让歌词挂在手上」, but the c7-2348-lyric shot ends at local 7.23 (the cut is at 128.75). So 「挂在手上」 (129.03–129.44) plays over the HIKARE title card, not over the lyric hanging from her wrist. The new point 「举手挂歌词，落地炸光，握拳锁定」 lands at 128.58, 0.15 s before the cut. The source has no more lyric footage: the shot changes at about 7.35 s in uc-2348.",
+  "fix": "Outside (narration.json data, case template): set s12_c7 data.clips[2] to {\"id\":\"c7-2348-lyric\",\"dur\":6.0}. case.js and clipUrl clamp to the last frame, f00158, which shows 「まだ終わらない」 hanging from the raised left wrist with the L.WRIST box. That frame then holds to local 7.97 (129.47), so the whole of 「挂在手上」 plays over it. The following hikare clip (from 1.1) starts after 「手上」; the scene end is unchanged.",
+  "lens": "sync"
+ },
+ {
+  "scene": "s06–s13 (case template, case.js; route to template owner)",
+  "t": "abs 56–145.5 (all eight case scenes)",
+  "severity": "minor",
+  "problem": "The case right column is the densest text in the film (about 90 s on screen), but its reading text is under the design.md body size of 30–36 px. Points are 500 28px/1.4, the 可以照搬 takeaway is 600 28px, and the provenance caveat (作者自述 / 据作者 …, the honesty label the storyboard insists on) is 500 21px in fog, the faintest line in the column. On a phone the caveat is the first thing to become unreadable.",
+  "fix": "In case.js, set points to 500 30px/1.4, the takeaway to 600 30px/1.4, and the caveat to 500 24px/1.35 coloured rgba(244,241,242,.78) instead of fog. Everything still fits on one line: the widest point (「同一模型换一版风格，机身看起来一致」, 17 chars) is about 510 px + 24 px for the dot, under the 600 px column; the widest takeaway (15 chars) is 450 px; the widest caveat is about 410 px. The column bottom grows about 14 px, to ≈786 for two-point cases, still clear of the series dots and y 880.",
+  "lens": "typography"
+ }
+]

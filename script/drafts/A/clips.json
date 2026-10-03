@@ -1,0 +1,37 @@
+{
+  "co-060-ring":     {"src": "assets/cases/gosail-060.mp4", "start": 49.0,   "end": 50.0,   "width": 1280, "fps": 30, "case": "gosail-060", "author": "@morpheusdv"},
+  "co-1377-sun":     {"src": "assets/cases/uc-1377.mp4",    "start": 175.0,  "end": 176.0,  "width": 1280, "fps": 30, "crop": "1458:820:231:130", "case": "uc-1377", "author": "@WinterArc2125"},
+  "co-054-render":   {"src": "assets/cases/gosail-054.mp4", "start": 19.6,   "end": 20.6,   "width": 720,  "fps": 30, "case": "gosail-054", "author": "@yoshifujidesign"},
+  "co-006-island":   {"src": "assets/cases/lists-006.mp4",  "start": 1.0,    "end": 1.5,    "width": 1280, "fps": 30, "crop": "1440:810:0:315", "case": "lists-006", "author": "@twoclipping"},
+  "co-0962-burst":   {"src": "assets/cases/uc-0962.mp4",    "start": 46.6,   "end": 47.1,   "width": 1280, "fps": 30, "case": "uc-0962", "author": "@kimmonismus"},
+  "co-006-cmdk":     {"src": "assets/cases/lists-006.mp4",  "start": 10.0,   "end": 12.5,   "width": 1280, "fps": 30, "crop": "1440:810:0:315", "case": "lists-006", "author": "@twoclipping"},
+
+  "c1-006-morph":    {"src": "assets/cases/lists-006.mp4",  "start": 0.0,    "end": 9.6,    "width": 720,  "fps": 30, "case": "lists-006", "author": "@twoclipping"},
+
+  "c2-060-tree":     {"src": "assets/cases/gosail-060.mp4", "start": 19.9,   "end": 24.3,   "width": 1280, "fps": 30, "crop": "1152:648:288:120", "case": "gosail-060", "author": "@morpheusdv"},
+  "c2-060-light":    {"src": "assets/cases/gosail-060.mp4", "start": 46.3,   "end": 51.0,   "width": 1280, "fps": 30, "case": "gosail-060", "author": "@morpheusdv"},
+
+  "c3-0962-web":     {"src": "assets/cases/uc-0962.mp4",    "start": 13.5,   "end": 20.5,   "width": 1280, "fps": 30, "case": "uc-0962", "author": "@kimmonismus"},
+  "c3-0962-burst":   {"src": "assets/cases/uc-0962.mp4",    "start": 46.0,   "end": 49.0,   "width": 1280, "fps": 30, "case": "uc-0962", "author": "@kimmonismus"},
+
+  "c4-1377-relief":  {"src": "assets/cases/uc-1377.mp4",    "start": 73.8,   "end": 76.8,   "width": 1280, "fps": 30, "crop": "1458:820:231:130", "case": "uc-1377", "author": "@WinterArc2125"},
+  "c4-1377-arrows":  {"src": "assets/cases/uc-1377.mp4",    "start": 106.0,  "end": 109.0,  "width": 1280, "fps": 30, "crop": "1458:820:231:130", "case": "uc-1377", "author": "@WinterArc2125"},
+  "c4-1377-sun":     {"src": "assets/cases/uc-1377.mp4",    "start": 173.0,  "end": 178.0,  "width": 1280, "fps": 30, "crop": "1458:820:231:130", "case": "uc-1377", "author": "@WinterArc2125"},
+
+  "c5-072-home":     {"src": "assets/cases/gosail-072.mp4", "start": 3.7,    "end": 5.2,    "width": 1280, "fps": 30, "case": "gosail-072", "author": "@aiwarts"},
+  "c5-072-search":   {"src": "assets/cases/gosail-072.mp4", "start": 12.9,   "end": 16.0,   "width": 1280, "fps": 30, "case": "gosail-072", "author": "@aiwarts"},
+  "c5-072-prompt":   {"src": "assets/cases/gosail-072.mp4", "start": 20.0,   "end": 23.9,   "width": 1280, "fps": 30, "case": "gosail-072", "author": "@aiwarts"},
+
+  "c6-054-line":     {"src": "assets/cases/gosail-054.mp4",   "start": 0.2,  "end": 3.2,    "width": 720,  "fps": 30, "case": "gosail-054", "author": "@yoshifujidesign"},
+  "c6-054-render":   {"src": "assets/cases/gosail-054.mp4",   "start": 18.9, "end": 21.6,   "width": 720,  "fps": 30, "case": "gosail-054", "author": "@yoshifujidesign"},
+  "c6-054b-plume":   {"src": "assets/cases/gosail-054-b.mp4", "start": 0.0,  "end": 4.8,    "width": 720,  "fps": 30, "case": "gosail-054", "author": "@yoshifujidesign"},
+
+  "c7-2348-skel":    {"src": "assets/cases/uc-2348.mp4",    "start": 8.667,  "end": 10.917, "width": 1280, "fps": 30, "case": "uc-2348", "author": "@aicreataro"},
+  "c7-2348-lyric":   {"src": "assets/cases/uc-2348.mp4",    "start": 3.667,  "end": 7.292,  "width": 1280, "fps": 30, "case": "uc-2348", "author": "@aicreataro"},
+  "c7-2348-fist":    {"src": "assets/cases/uc-2348.mp4",    "start": 10.917, "end": 12.7,   "width": 1280, "fps": 30, "case": "uc-2348", "author": "@aicreataro"},
+  "c7-2348-hikare":  {"src": "assets/cases/uc-2348.mp4",    "start": 26.5,   "end": 29.0,   "width": 1280, "fps": 30, "case": "uc-2348", "author": "@aicreataro"},
+
+  "c8-133-open":     {"src": "assets/cases/gosail-133.mp4", "start": 0.0,    "end": 2.667,  "width": 1280, "fps": 30, "case": "gosail-133", "author": "@KanaWorks_AI"},
+  "c8-133-swap":     {"src": "assets/cases/gosail-133.mp4", "start": 3.458,  "end": 6.708,  "width": 1280, "fps": 30, "case": "gosail-133", "author": "@KanaWorks_AI"},
+  "c8-133-night":    {"src": "assets/cases/gosail-133.mp4", "start": 7.917,  "end": 10.833, "width": 1280, "fps": 30, "case": "gosail-133", "author": "@KanaWorks_AI"}
+}

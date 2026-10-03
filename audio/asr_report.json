@@ -1,0 +1,408 @@
+[
+ {
+  "id": "s01_cold.1",
+  "text": "这些视频，没有一帧是拍出来的。",
+  "heard": "这些视频没有一真实拍出来",
+  "similarity": 0.96,
+  "model": "small"
+ },
+ {
+  "id": "s01_cold.2",
+  "text": "也不是 AI 一键生成的。",
+  "heard": "也不是AI一件生成的",
+  "similarity": 1.0,
+  "model": "small"
+ },
+ {
+  "id": "s01_cold.3",
+  "text": "每一帧，都是代码。",
+  "heard": "每一針都是代表",
+  "similarity": 0.857,
+  "model": "small"
+ },
+ {
+  "id": "s02_title.1",
+  "text": "包括你现在看到的这一帧。",
+  "heard": "包括你現在看到的這一陣",
+  "similarity": 1.0,
+  "model": "small"
+ },
+ {
+  "id": "s02_title.2",
+  "text": "用 Opus 5.5 做的视频，为什么这么炫？小白怎么做？一次讲明白。",
+  "heard": "用Opass5.5做的視頻為什麼這麼炫小白怎麼做一次講明白",
+  "similarity": 0.955,
+  "model": "medium"
+ },
+ {
+  "id": "s03_text.1",
+  "text": "先看原理：Opus 5.5 只输出文字，不直接出视频。",
+  "heard": "奧帕斯 5.5 只输出文字 不直接出视频",
+  "similarity": 0.71,
+  "model": "small"
+ },
+ {
+  "id": "s03_text.2",
+  "text": "它写分镜、写代码、调工具，画画的是浏览器和图形引擎。",
+  "heard": "它寫分鏡調工具畫畫的是瀏覽器和圖形引擎",
+  "similarity": 0.927,
+  "model": "small"
+ },
+ {
+  "id": "s04_render.1",
+  "text": "代码视频就像一本手翻书。给一个时间，就算出那一页。",
+  "heard": "代码视频就像一本手翻书给一个时间就算出内言",
+  "similarity": 0.884,
+  "model": "small"
+ },
+ {
+  "id": "s04_render.2",
+  "text": "左边，就是这一幕自己的代码。",
+  "heard": "左边就是这一幕自己的代码",
+  "similarity": 1.0,
+  "model": "small"
+ },
+ {
+  "id": "s04_render.3",
+  "text": "30 秒，每秒 30 帧，就是 900 帧。",
+  "heard": "30秒 每秒30帧就是900帧",
+  "similarity": 1.0,
+  "model": "small"
+ },
+ {
+  "id": "s04_render.4",
+  "text": "但模型不用跑 900 次，代码只写一次。",
+  "heard": "模型模型好900次代碼直行一次",
+  "similarity": 0.667,
+  "model": "medium"
+ },
+ {
+  "id": "s04_render.5",
+  "text": "再用 FFmpeg 把这些帧拼成视频。",
+  "heard": "再用 FFmpeg 把这些真听成视频",
+  "similarity": 0.909,
+  "model": "medium"
+ },
+ {
+  "id": "s05_wall.1",
+  "text": "原理不难，炫不炫，差在导演功夫。",
+  "heard": "原理不難,不炫,插在導演功夫",
+  "similarity": 0.96,
+  "model": "medium"
+ },
+ {
+  "id": "s05_wall.2",
+  "text": "截至 10 月 1 日，WaytoAGI 收录了 1704 个视频案例。",
+  "heard": "截至10月1日V2AGI收錄了1704個視頻案例",
+  "similarity": 0.938,
+  "model": "medium"
+ },
+ {
+  "id": "s05_wall.3",
+  "text": "我们挑了 8 个，每个一招。",
+  "heard": "我们挑了8个 每个一招",
+  "similarity": 1.0,
+  "model": "medium"
+ },
+ {
+  "id": "s06_c1.1",
+  "text": "第一招，一个形体贯穿全片。",
+  "heard": "第一拳,一個形體貫穿全片",
+  "similarity": 0.909,
+  "model": "medium"
+ },
+ {
+  "id": "s06_c1.2",
+  "text": "从按钮到图表，14 秒一镜到底，一刀没剪。",
+  "heard": "從按鈕到圖表14秒�",
+  "similarity": 0.64,
+  "model": "medium"
+ },
+ {
+  "id": "s06_c1.3",
+  "text": "照搬：先定贯穿对象，再排上节拍。",
+  "heard": "",
+  "similarity": 0.0,
+  "model": null
+ },
+ {
+  "id": "s07_c2.1",
+  "text": "第二招，暖色只留给高潮。",
+  "heard": "第 第二 招 �",
+  "similarity": 0.4,
+  "model": "medium"
+ },
+ {
+  "id": "s07_c2.2",
+  "text": "全片只有纸和墨，60 秒里，暖光只亮 9 秒。",
+  "heard": "",
+  "similarity": 0.0,
+  "model": null
+ },
+ {
+  "id": "s07_c2.3",
+  "text": "照搬：把风格拆成几条能检查的规则。",
+  "heard": "赵班把风格拆成几条能检查的规则",
+  "similarity": 1.0,
+  "model": "medium"
+ },
+ {
+  "id": "s08_c3.1",
+  "text": "第三招，画面、旁白、配乐分层做，每层单独改。",
+  "heard": "第三招 画面 旁白 配乐分层座 每层单",
+  "similarity": 0.938,
+  "model": "medium"
+ },
+ {
+  "id": "s08_c3.2",
+  "text": "照搬：先写分镜，每场先出几张截图检查。",
+  "heard": "每场先出几张截图检查",
+  "similarity": 0.769,
+  "model": "medium"
+ },
+ {
+  "id": "s09_c4.1",
+  "text": "第四招，用真实数据当约束。",
+  "heard": "第四招 用真实数据当约束",
+  "similarity": 1.0,
+  "model": "medium"
+ },
+ {
+  "id": "s09_c4.2",
+  "text": "地形来自海拔数据，地图讲移动，地面镜头给情绪。",
+  "heard": "地形來自海拔數據地圖講移動地面鏡頭給情緒",
+  "similarity": 1.0,
+  "model": "medium"
+ },
+ {
+  "id": "s09_c4.3",
+  "text": "照搬：提示词只写意图和不想要的效果。",
+  "heard": "照班提示辞职意图和不想要的效果",
+  "similarity": 0.968,
+  "model": "small"
+ },
+ {
+  "id": "s10_c5.1",
+  "text": "后四招，画面里还用了现成素材或别的模型。",
+  "heard": "",
+  "similarity": 0.0,
+  "model": null
+ },
+ {
+  "id": "s10_c5.2",
+  "text": "第五招，用户怎么点，镜头就怎么走。",
+  "heard": "五招用户怎么点镜头就怎么走照",
+  "similarity": 0.929,
+  "model": "medium"
+ },
+ {
+  "id": "s10_c5.3",
+  "text": "照搬：每个卖点，配一段真实界面。",
+  "heard": "照搬 每個賣點配一段真實界面",
+  "similarity": 1.0,
+  "model": "medium"
+ },
+ {
+  "id": "s11_c6.1",
+  "text": "第六招，产品不动，只换演出。",
+  "heard": "第六招 產品不動 只換演出",
+  "similarity": 1.0,
+  "model": "medium"
+ },
+ {
+  "id": "s11_c6.2",
+  "text": "同一个 3D 手机模型，换了几种风格。",
+  "heard": "",
+  "similarity": 0.0,
+  "model": null
+ },
+ {
+  "id": "s11_c6.3",
+  "text": "照搬：模型锁死，只改镜头、光线和配色。",
+  "heard": "模型所死,值得光线和配色",
+  "similarity": 0.769,
+  "model": "small"
+ },
+ {
+  "id": "s12_c7.1",
+  "text": "第七招，让动作驱动特效。",
+  "heard": "第七招 让动作驱动特性",
+  "similarity": 0.9,
+  "model": "small"
+ },
+ {
+  "id": "s12_c7.2",
+  "text": "据作者，舞者和歌是 AI 生成的，骨架数据让歌词挂在手上。",
+  "heard": "巨作者舞者和歌是股价数据让歌词挂在手上",
+  "similarity": 0.905,
+  "model": "small"
+ },
+ {
+  "id": "s12_c7.3",
+  "text": "照搬：挑两三个动作，各绑一种效果。",
+  "heard": "照搬 挑2-3個動",
+  "similarity": 0.5,
+  "model": "medium"
+ },
+ {
+  "id": "s13_c8.1",
+  "text": "第八招，多个模型，各管一段。",
+  "heard": "第八招多个模型各管一段",
+  "similarity": 1.0,
+  "model": "small"
+ },
+ {
+  "id": "s13_c8.2",
+  "text": "据作者，Opus 写代码统筹，人物和布景交给 AI 模型。",
+  "heard": "巨作者OPAS 写代码统筹人物和不仅交给 AI 模型",
+  "similarity": 0.895,
+  "model": "small"
+ },
+ {
+  "id": "s13_c8.3",
+  "text": "照搬：每个镜头写清分工，和怎样算合格。",
+  "heard": "照班每个镜头写清分工和怎样算合格",
+  "similarity": 1.0,
+  "model": "small"
+ },
+ {
+  "id": "s14_formula.1",
+  "text": "所以，好看不是因为 Opus 会画画。",
+  "heard": "所以好看不是因為歐帕",
+  "similarity": 0.727,
+  "model": "small"
+ },
+ {
+  "id": "s14_formula.2",
+  "text": "而是叙事、规则、时间轴、声音，加上反复检查。",
+  "heard": "而是敘事、规则、时间轴、声音加上反复检查",
+  "similarity": 1.0,
+  "model": "medium"
+ },
+ {
+  "id": "s14_formula.3",
+  "text": "这是导演功夫：方向和反馈靠你，代码交给它。",
+  "heard": "",
+  "similarity": 0.0,
+  "model": null
+ },
+ {
+  "id": "s15_env.1",
+  "text": "轮到你了。第一步，准备一个能运行代码的 AI 工具，比如 Claude Code。",
+  "heard": "",
+  "similarity": 0.0,
+  "model": null
+ },
+ {
+  "id": "s15_env.2",
+  "text": "再装 Node 和 FFmpeg。注意，Claude Code 要付费账号。",
+  "heard": "再裝Node和F-Pack注意Cloud Code要付費賬號",
+  "similarity": 0.846,
+  "model": "small"
+ },
+ {
+  "id": "s16_routes.1",
+  "text": "第二步，选路线：HyperFrames 或 Remotion，适合做字幕、图表和界面。",
+  "heard": "是合作字幕圖表和界面",
+  "similarity": 0.69,
+  "model": "small"
+ },
+ {
+  "id": "s16_routes.2",
+  "text": "想全部自己掌控，就像本片：用网页，加一个自动截图的浏览器。",
+  "heard": "想全部自己�,就像本片用网,加",
+  "similarity": 0.632,
+  "model": "small"
+ },
+ {
+  "id": "s16_routes.3",
+  "text": "想要现成风格，就装 Lemo-Opuscar。再加一句：先给我看分镜。",
+  "heard": "",
+  "similarity": 0.0,
+  "model": null
+ },
+ {
+  "id": "s17_prompt.1",
+  "text": "第三步，套模板写需求。给谁看，记住什么，多长，哪些不能改。",
+  "heard": "",
+  "similarity": 0.0,
+  "model": null
+ },
+ {
+  "id": "s17_prompt.2",
+  "text": "风格别写高级感，写能检查的规则：每屏一个主信息。",
+  "heard": "風格別寫高級感寫能檢查的規則每評一個主信息",
+  "similarity": 1.0,
+  "model": "small"
+ },
+ {
+  "id": "s18_sample.1",
+  "text": "第四步，先要分镜、三张效果图和一个小样，确认了再做全片。",
+  "heard": "第四步先要分 just",
+  "similarity": 0.387,
+  "model": "small"
+ },
+ {
+  "id": "s19_feedback.1",
+  "text": "第五步，反馈写成：时间点，问题，期望。",
+  "heard": "反馈写成时间点问题",
+  "similarity": 0.783,
+  "model": "small"
+ },
+ {
+  "id": "s19_feedback.2",
+  "text": "别说再炫一点。要说：第 8 到 11 秒，标题没读完就消失，请延长停留。",
+  "heard": "別說再炫一點要說第八到十一秒標題沒讀完就消失請延長停",
+  "similarity": 0.846,
+  "model": "small"
+ },
+ {
+  "id": "s20_ship.1",
+  "text": "第六步，检查：截图、片段，再带声音完整看一遍。",
+  "heard": "第六部 檢查 截圖 片段再帶聲音完整看一遍",
+  "similarity": 1.0,
+  "model": "small"
+ },
+ {
+  "id": "s20_ship.2",
+  "text": "模型看不了视频，就让它先截成图片再看。",
+  "heard": "就让它先结成图片",
+  "similarity": 0.64,
+  "model": "small"
+ },
+ {
+  "id": "s20_ship.3",
+  "text": "你的第一支，就从 15 到 30 秒开始。",
+  "heard": "你的第一支就从15到30秒开始",
+  "similarity": 1.0,
+  "model": "small"
+ },
+ {
+  "id": "s21_meta.1",
+  "text": "揭个底：这支片子，也是这么做的。",
+  "heard": "接著底這支片子也是這麼做的",
+  "similarity": 0.923,
+  "model": "small"
+ },
+ {
+  "id": "s21_meta.2",
+  "text": "Opus 5.5 在 Claude Code 里，写了场景、时间轴和配乐程序。",
+  "heard": "OPAS 5.5在Cloud Code裡寫了場景、時間軸和配樂程序",
+  "similarity": 0.812,
+  "model": "small"
+ },
+ {
+  "id": "s21_meta.3",
+  "text": "浏览器逐帧截图，连我的声音，也是合成的。",
+  "heard": "烂气竹针截图连我的声音也是合成的",
+  "similarity": 0.97,
+  "model": "small"
+ },
+ {
+  "id": "s22_end.1",
+  "text": "完整文章和 5181 个案例，都在 WaytoAGI，去做你的第一支吧。",
+  "heard": "完整文章和5181個案例都在 Way to AGI去做你的第一支吧",
+  "similarity": 1.0,
+  "model": "small"
+ }
+]

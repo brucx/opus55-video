@@ -1,0 +1,996 @@
+{
+ "voice": "zh-CN-YunxiNeural",
+ "rate": "+6%",
+ "bpm": 120,
+ "fps": 30,
+ "chapters": [
+  {
+   "id": "c0",
+   "num": "00",
+   "label": "开场"
+  },
+  {
+   "id": "c1",
+   "num": "01",
+   "label": "原理"
+  },
+  {
+   "id": "c2",
+   "num": "02",
+   "label": "为什么炫"
+  },
+  {
+   "id": "c3",
+   "num": "03",
+   "label": "小白上手"
+  },
+  {
+   "id": "c4",
+   "num": "04",
+   "label": "幕后"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "s01_cold",
+   "chapter": "c0",
+   "theme": "dark",
+   "transition": {
+    "type": "cut",
+    "dur": 0
+   },
+   "lead": 0.3,
+   "tail": 0.3,
+   "snap": "beat",
+   "subs": true,
+   "chrome": false,
+   "music": {
+    "energy": 3
+   },
+   "lines": [
+    {
+     "id": "s01_cold.1",
+     "text": "这些炫酷的视频，没有一帧是拍出来的。",
+     "gapAfter": 0.25
+    },
+    {
+     "id": "s01_cold.2",
+     "text": "也不是 AI 一键生成的。",
+     "gapAfter": 0.3
+    },
+    {
+     "id": "s01_cold.3",
+     "text": "它们是 Opus 5.5 写的代码，一帧一帧算出来的。"
+    }
+   ]
+  },
+  {
+   "id": "s02_title",
+   "chapter": "c0",
+   "theme": "dark",
+   "transition": {
+    "type": "cut",
+    "dur": 0
+   },
+   "lead": 0.25,
+   "tail": 1.4,
+   "snap": "bar",
+   "subs": true,
+   "chrome": true,
+   "music": {
+    "energy": 3
+   },
+   "lines": [
+    {
+     "id": "s02_title.1",
+     "text": "包括你现在看到的这一帧。",
+     "gapAfter": 0.45
+    },
+    {
+     "id": "s02_title.2",
+     "text": "这一期，就让这支视频自己拆给你看。"
+    }
+   ]
+  },
+  {
+   "id": "s03_text",
+   "chapter": "c1",
+   "theme": "dark",
+   "transition": {
+    "type": "wipe",
+    "dur": 0.6
+   },
+   "lead": 0.45,
+   "tail": 0.45,
+   "snap": "beat",
+   "music": {
+    "energy": 1
+   },
+   "lines": [
+    {
+     "id": "s03_text.1",
+     "text": "Opus 5.5 不会直接画画，它只输出文字，比如代码。"
+    },
+    {
+     "id": "s03_text.2",
+     "text": "浏览器照着代码算出每一帧，FFmpeg 再编成视频。"
+    }
+   ],
+   "gap": 0.25
+  },
+  {
+   "id": "s04_render",
+   "chapter": "c1",
+   "theme": "dark",
+   "transition": {
+    "type": "zoom",
+    "dur": 0.7
+   },
+   "lead": 0.45,
+   "tail": 0.45,
+   "snap": "beat",
+   "music": {
+    "energy": 1
+   },
+   "lines": [
+    {
+     "id": "s04_render.1",
+     "text": "核心就一句：给一个时间，还你一帧画面。"
+    },
+    {
+     "id": "s04_render.2",
+     "text": "左边，就是这一幕自己的代码。"
+    },
+    {
+     "id": "s04_render.3",
+     "text": "同一个时间，永远是同一帧。"
+    },
+    {
+     "id": "s04_render.4",
+     "text": "30 秒是 900 帧，但模型不用画 900 次，渲染器自己算。"
+    }
+   ],
+   "gap": 0.22
+  },
+  {
+   "id": "s05_atlas",
+   "chapter": "c2",
+   "theme": "dark",
+   "transition": {
+    "type": "wipe",
+    "dur": 0.6
+   },
+   "lead": 0.45,
+   "tail": 0.45,
+   "snap": "beat",
+   "music": {
+    "energy": 2
+   },
+   "lines": [
+    {
+     "id": "s05_atlas.1",
+     "text": "原理不难，难的是好看。"
+    },
+    {
+     "id": "s05_atlas.2",
+     "text": "截至 10 月 1 日，WaytoAGI 收录了 1704 条视频案例。",
+     "say": "截至 10 月 1 日，Way to AGI 收录了 1704 条视频案例。"
+    },
+    {
+     "id": "s05_atlas.3",
+     "text": "我们挑了 8 个，每个教你一招。"
+    }
+   ],
+   "gap": 0.22
+  },
+  {
+   "id": "s06_case1",
+   "chapter": "c2",
+   "theme": "dark",
+   "transition": {
+    "type": "zoom",
+    "dur": 0.6
+   },
+   "lead": 0.45,
+   "tail": 0.45,
+   "snap": "beat",
+   "music": {
+    "energy": 2
+   },
+   "template": "case",
+   "file": "case",
+   "data": {
+    "index": 1,
+    "total": 8,
+    "clips": [
+     {
+      "id": "c1-006-morph"
+     }
+    ],
+    "aspect": "1:1",
+    "author": "@twoclipping",
+    "work": "无缝 UI 形变",
+    "tagline": "路线：代码生成与渲染",
+    "secret": "一个形状贯穿全片",
+    "points": [
+     "按钮、播放器、图表，都是它在变形",
+     "约 120 BPM，14 秒正好 7 小节"
+    ],
+    "takeaway": "先定贯穿对象和状态，再排上节拍",
+    "caveat": "“0 After Effects”为作者自述",
+    "cues": {
+     "secret": "s06_case1.1",
+     "points": [
+      "s06_case1.2",
+      [
+       "s06_case1.2",
+       "图表"
+      ]
+     ],
+     "takeaway": "s06_case1.3"
+    }
+   },
+   "lines": [
+    {
+     "id": "s06_case1.1",
+     "text": "第一招，一个形状贯穿全片。"
+    },
+    {
+     "id": "s06_case1.2",
+     "text": "按钮、播放器、图表，都是它变的。"
+    },
+    {
+     "id": "s06_case1.3",
+     "text": "先定这个对象，再排它的状态。"
+    }
+   ],
+   "gap": 0.2
+  },
+  {
+   "id": "s07_case2",
+   "chapter": "c2",
+   "theme": "dark",
+   "transition": {
+    "type": "push",
+    "dur": 0.7
+   },
+   "lead": 0.45,
+   "tail": 0.45,
+   "snap": "beat",
+   "music": {
+    "energy": 2
+   },
+   "template": "case",
+   "file": "case",
+   "data": {
+    "index": 2,
+    "total": 8,
+    "clips": [
+     {
+      "id": "c2-060-light",
+      "from": 0.6,
+      "dur": 4.1
+     },
+     {
+      "id": "c2-060-tree"
+     }
+    ],
+    "aspect": "16:9",
+    "author": "@morpheusdv",
+    "work": "《最初的火花》",
+    "tagline": "路线：代码生成与渲染",
+    "secret": "暖色只留给高潮",
+    "points": [
+     "只有纸色和墨色，东西都是长出来的",
+     "60 秒中，暖色只出现约 9 秒"
+    ],
+    "takeaway": "把风格拆成能检查的规则，先做通第一场",
+    "caveat": "“完全 JavaScript”为作者自述",
+    "cues": {
+     "secret": "s07_case2.1",
+     "points": [
+      "s07_case2.2",
+      [
+       "s07_case2.2",
+       "出来"
+      ]
+     ],
+     "takeaway": "s07_case2.3"
+    }
+   },
+   "lines": [
+    {
+     "id": "s07_case2.1",
+     "text": "第二招，暖色只留给高潮。"
+    },
+    {
+     "id": "s07_case2.2",
+     "text": "其余时间只有纸和墨，东西都是一笔笔长出来的。"
+    },
+    {
+     "id": "s07_case2.3",
+     "text": "把好看拆成几条能检查的规则。"
+    }
+   ],
+   "gap": 0.2
+  },
+  {
+   "id": "s08_case3",
+   "chapter": "c2",
+   "theme": "dark",
+   "transition": {
+    "type": "push",
+    "dur": 0.7
+   },
+   "lead": 0.45,
+   "tail": 0.45,
+   "snap": "beat",
+   "music": {
+    "energy": 2
+   },
+   "template": "case",
+   "file": "case",
+   "data": {
+    "index": 3,
+    "total": 8,
+    "clips": [
+     {
+      "id": "c3-0962-web"
+     },
+     {
+      "id": "c3-0962-sphere"
+     }
+    ],
+    "aspect": "16:9",
+    "author": "@kimmonismus",
+    "work": "AI 历史短片",
+    "tagline": "路线：代码生成与渲染",
+    "secret": "画面和声音分层做",
+    "points": [
+     "一个发光的单词“the”串起九段",
+     "先写分镜文件，每场渲几张静帧自查"
+    ],
+    "takeaway": "每一层单独改，再沿同一条时间轴合成",
+    "caveat": "工具栈与耗时为作者自述",
+    "cues": {
+     "secret": "s08_case3.1",
+     "points": [
+      "s08_case3.2",
+      [
+       "s08_case3.2",
+       "历史"
+      ]
+     ],
+     "takeaway": "s08_case3.3"
+    }
+   },
+   "lines": [
+    {
+     "id": "s08_case3.1",
+     "text": "第三招，画面和声音分层做。"
+    },
+    {
+     "id": "s08_case3.2",
+     "text": "一个发光的单词当主角，串起整段 AI 历史。"
+    },
+    {
+     "id": "s08_case3.3",
+     "text": "每层单独改，再沿同一条时间轴合成。"
+    }
+   ],
+   "gap": 0.2
+  },
+  {
+   "id": "s09_case4",
+   "chapter": "c2",
+   "theme": "dark",
+   "transition": {
+    "type": "push",
+    "dur": 0.7
+   },
+   "lead": 0.45,
+   "tail": 0.45,
+   "snap": "beat",
+   "music": {
+    "energy": 2
+   },
+   "template": "case",
+   "file": "case",
+   "data": {
+    "index": 4,
+    "total": 8,
+    "clips": [
+     {
+      "id": "c4-1377-sun"
+     },
+     {
+      "id": "c4-1377-pond"
+     }
+    ],
+    "aspect": "16:9",
+    "author": "@WinterArc2125",
+    "work": "奥斯特里茨战役",
+    "tagline": "路线：代码生成与渲染",
+    "secret": "用真实数据约束画面",
+    "points": [
+     "山丘取自高程数据，地图讲清移动",
+     "先生成旁白，再按每段时长排镜头"
+    ],
+    "takeaway": "提示只写导演意图和不想要的效果",
+    "caveat": "作者自述：构建90分钟、渲染4小时、40美元",
+    "cues": {
+     "secret": "s09_case4.1",
+     "points": [
+      "s09_case4.2",
+      [
+       "s09_case4.2",
+       "旁白"
+      ]
+     ],
+     "takeaway": "s09_case4.3"
+    }
+   },
+   "lines": [
+    {
+     "id": "s09_case4.1",
+     "text": "第四招，用真实数据约束画面。"
+    },
+    {
+     "id": "s09_case4.2",
+     "text": "山丘取自高程数据；旁白先生成，再按时长排镜头。"
+    },
+    {
+     "id": "s09_case4.3",
+     "text": "提示里只写导演意图。"
+    }
+   ],
+   "gap": 0.2
+  },
+  {
+   "id": "s10_proof",
+   "chapter": "c2",
+   "theme": "dark",
+   "transition": {
+    "type": "zoom",
+    "dur": 0.7
+   },
+   "lead": 0.45,
+   "tail": 0.45,
+   "snap": "beat",
+   "music": {
+    "energy": 2
+   },
+   "lines": [
+    {
+     "id": "s10_proof.1",
+     "text": "这四招，本片也在用。"
+    },
+    {
+     "id": "s10_proof.2",
+     "text": "先合成旁白，量出每句多长，再排镜头。"
+    },
+    {
+     "id": "s10_proof.3",
+     "text": "字幕跟着语音的时间戳走，配乐是 Python 写的，每拍半秒。"
+    },
+    {
+     "id": "s10_proof.4",
+     "text": "全都挂在同一条时间轴上。"
+    }
+   ],
+   "gap": 0.22
+  },
+  {
+   "id": "s11_case5",
+   "chapter": "c2",
+   "theme": "dark",
+   "transition": {
+    "type": "push",
+    "dur": 0.7
+   },
+   "lead": 0.45,
+   "tail": 0.45,
+   "snap": "beat",
+   "music": {
+    "energy": 2
+   },
+   "template": "case",
+   "file": "case",
+   "data": {
+    "index": 5,
+    "total": 8,
+    "clips": [
+     {
+      "id": "c5-072-result"
+     },
+     {
+      "id": "c5-072-prompt"
+     },
+     {
+      "id": "c5-072-rank"
+     },
+     {
+      "id": "c5-072-brand"
+     }
+    ],
+    "aspect": "16:9",
+    "author": "@aiwarts",
+    "work": "双比例产品片",
+    "tagline": "路线：已有素材的编辑与合成",
+    "secret": "卖点都有真实界面作证",
+    "points": [
+     "先读网站代码，再看线上页面",
+     "竖版重新排版，不是直接裁切"
+    ],
+    "takeaway": "把用户怎么用产品，写成镜头的顺序",
+    "caveat": "站内作品属他人；“一次直出”为自述",
+    "cues": {
+     "secret": "s11_case5.2",
+     "points": [
+      [
+       "s11_case5.2",
+       "卖点"
+      ],
+      [
+       "s11_case5.2",
+       "界面"
+      ]
+     ],
+     "takeaway": "s11_case5.3"
+    }
+   },
+   "lines": [
+    {
+     "id": "s11_case5.1",
+     "text": "后四招，还用了真实素材或别的模型。"
+    },
+    {
+     "id": "s11_case5.2",
+     "text": "第五招，每个卖点都有真实界面作证。"
+    },
+    {
+     "id": "s11_case5.3",
+     "text": "镜头顺序，就是用户的使用路径。"
+    }
+   ],
+   "gap": 0.2
+  },
+  {
+   "id": "s12_case6",
+   "chapter": "c2",
+   "theme": "dark",
+   "transition": {
+    "type": "push",
+    "dur": 0.7
+   },
+   "lead": 0.45,
+   "tail": 0.45,
+   "snap": "beat",
+   "music": {
+    "energy": 2
+   },
+   "template": "case",
+   "file": "case",
+   "data": {
+    "index": 6,
+    "total": 8,
+    "clips": [
+     {
+      "id": "c6-054-scan"
+     },
+     {
+      "id": "c6-054b-line"
+     }
+    ],
+    "aspect": "9:16",
+    "author": "@yoshifujidesign",
+    "work": "3D 产品片变体",
+    "tagline": "固定输入：手机 3D 模型",
+    "secret": "产品不改，只改演出",
+    "points": [
+     "同一份 3D 数据，做出四种风格",
+     "一条橙线，从开场画到收尾"
+    ],
+    "takeaway": "写清哪些必须保持原样，哪些允许发挥",
+    "caveat": "未公开提示与工具链；片中参数为虚构",
+    "cues": {
+     "secret": "s12_case6.1",
+     "points": [
+      "s12_case6.2",
+      [
+       "s12_case6.2",
+       "风格"
+      ]
+     ],
+     "takeaway": "s12_case6.3"
+    }
+   },
+   "lines": [
+    {
+     "id": "s12_case6.1",
+     "text": "第六招，产品不改，只改演出。"
+    },
+    {
+     "id": "s12_case6.2",
+     "text": "同一份 3D 数据，换了四种风格，机身看起来一致。"
+    },
+    {
+     "id": "s12_case6.3",
+     "text": "写清哪些必须保持，哪些允许发挥。"
+    }
+   ],
+   "gap": 0.2
+  },
+  {
+   "id": "s13_case7",
+   "chapter": "c2",
+   "theme": "dark",
+   "transition": {
+    "type": "push",
+    "dur": 0.7
+   },
+   "lead": 0.45,
+   "tail": 0.45,
+   "snap": "beat",
+   "music": {
+    "energy": 2
+   },
+   "template": "case",
+   "file": "case",
+   "data": {
+    "index": 7,
+    "total": 8,
+    "clips": [
+     {
+      "id": "c7-2348-burst"
+     },
+     {
+      "id": "c7-2348-lyric"
+     },
+     {
+      "id": "c7-2348-lock"
+     }
+    ],
+    "aspect": "16:9",
+    "author": "@aicreataro",
+    "work": "骨架驱动舞蹈",
+    "tagline": "路线：多模型＋After Effects",
+    "secret": "动作驱动文字和光",
+    "points": [
+     "举手挂歌词，出拳射文字，落地爆光",
+     "先给观众看骨架数据，再看效果"
+    ],
+    "takeaway": "只挑两三个动作，各绑一种效果，用完就收",
+    "caveat": "作者自述：歌与舞者由 AI 生成",
+    "cues": {
+     "secret": "s13_case7.1",
+     "points": [
+      [
+       "s13_case7.2",
+       "骨架"
+      ],
+      [
+       "s13_case7.2",
+       "特效"
+      ]
+     ],
+     "takeaway": "s13_case7.3"
+    }
+   },
+   "lines": [
+    {
+     "id": "s13_case7.1",
+     "text": "第七招，用动作驱动文字和光。"
+    },
+    {
+     "id": "s13_case7.2",
+     "text": "舞者和歌来自别的模型，Opus 取出骨架，驱动特效。"
+    },
+    {
+     "id": "s13_case7.3",
+     "text": "只挑两三个动作，用完就收。"
+    }
+   ],
+   "gap": 0.2
+  },
+  {
+   "id": "s14_case8",
+   "chapter": "c2",
+   "theme": "dark",
+   "transition": {
+    "type": "push",
+    "dur": 0.7
+   },
+   "lead": 0.45,
+   "tail": 0.45,
+   "snap": "beat",
+   "music": {
+    "energy": 2
+   },
+   "template": "case",
+   "file": "case",
+   "data": {
+    "index": 8,
+    "total": 8,
+    "clips": [
+     {
+      "id": "c8-133-stage"
+     }
+    ],
+    "aspect": "16:9",
+    "author": "@KanaWorks_AI",
+    "work": "五幕舞台短片",
+    "tagline": "路线：多模型制作",
+    "secret": "每个模型只做最擅长的",
+    "points": [
+     "Opus 统筹，Seedance 管动作",
+     "换景藏在幕布合拢的那几帧"
+    ],
+    "takeaway": "每个镜头写清输入、负责工具和验收标准",
+    "caveat": "分工为作者自述；“便宜稳定”不是排名",
+    "cues": {
+     "secret": "s14_case8.1",
+     "points": [
+      "s14_case8.2",
+      [
+       "s14_case8.2",
+       "幕布"
+      ]
+     ],
+     "takeaway": "s14_case8.3"
+    }
+   },
+   "lines": [
+    {
+     "id": "s14_case8.1",
+     "text": "第八招，每个模型只做最擅长的。"
+    },
+    {
+     "id": "s14_case8.2",
+     "text": "Opus 统筹，Seedance 管动作，换景藏在幕布后。"
+    },
+    {
+     "id": "s14_case8.3",
+     "text": "每个镜头写清输入、工具和验收标准。"
+    }
+   ],
+   "gap": 0.2
+  },
+  {
+   "id": "s15_formula",
+   "chapter": "c2",
+   "theme": "dark",
+   "transition": {
+    "type": "iris",
+    "dur": 0.8,
+    "cx": 960,
+    "cy": 520
+   },
+   "lead": 0.6,
+   "tail": 0.5,
+   "snap": "beat",
+   "music": {
+    "energy": 1
+   },
+   "lines": [
+    {
+     "id": "s15_formula.1",
+     "text": "所以，炫不是因为模型会画画。",
+     "gapAfter": 0.3
+    },
+    {
+     "id": "s15_formula.2",
+     "text": "而是叙事、规则、时间轴、声音，再加一轮轮检查。"
+    }
+   ]
+  },
+  {
+   "id": "s16_env",
+   "chapter": "c3",
+   "theme": "light",
+   "transition": {
+    "type": "wipe",
+    "dur": 0.6
+   },
+   "lead": 0.45,
+   "tail": 0.45,
+   "snap": "beat",
+   "music": {
+    "energy": 1
+   },
+   "lines": [
+    {
+     "id": "s16_env.1",
+     "text": "轮到你了。先准备一个能跑代码的 AI 环境，比如 Claude Code。"
+    },
+    {
+     "id": "s16_env.2",
+     "text": "一行命令安装，再装好 Node.js 和 FFmpeg。",
+     "say": "一行命令安装，再装好 Node 和 FFmpeg。"
+    },
+    {
+     "id": "s16_env.3",
+     "text": "它需要付费账号。"
+    }
+   ],
+   "gap": 0.2
+  },
+  {
+   "id": "s17_routes",
+   "chapter": "c3",
+   "theme": "light",
+   "transition": {
+    "type": "wipe-up",
+    "dur": 0.6
+   },
+   "lead": 0.45,
+   "tail": 0.45,
+   "snap": "beat",
+   "music": {
+    "energy": 1
+   },
+   "lines": [
+    {
+     "id": "s17_routes.1",
+     "text": "然后选路线：做图文和界面，用 HyperFrames 或 Remotion。"
+    },
+    {
+     "id": "s17_routes.2",
+     "text": "想全盘掌控，就像本片，用网页加无头浏览器。"
+    },
+    {
+     "id": "s17_routes.3",
+     "text": "想直接套风格，装 Lemo-Opuscar，记得先要分镜。",
+     "say": "想直接套风格，装 Lemo Opuscar，记得先要分镜。"
+    }
+   ],
+   "gap": 0.22
+  },
+  {
+   "id": "s18_workflow",
+   "chapter": "c3",
+   "theme": "light",
+   "transition": {
+    "type": "wipe-up",
+    "dur": 0.6
+   },
+   "lead": 0.45,
+   "tail": 0.45,
+   "snap": "beat",
+   "music": {
+    "energy": 1
+   },
+   "lines": [
+    {
+     "id": "s18_workflow.1",
+     "text": "别指望一句话出片。本片是这样做的："
+    },
+    {
+     "id": "s18_workflow.2",
+     "text": "写清任务，整理资料，写好分镜和台词；"
+    },
+    {
+     "id": "s18_workflow.3",
+     "text": "先做一个镜头的小样，看过再扩展到全片。"
+    }
+   ],
+   "gap": 0.2
+  },
+  {
+   "id": "s19_feedback",
+   "chapter": "c3",
+   "theme": "light",
+   "transition": {
+    "type": "zoom",
+    "dur": 0.6
+   },
+   "lead": 0.45,
+   "tail": 0.45,
+   "snap": "beat",
+   "music": {
+    "energy": 1
+   },
+   "lines": [
+    {
+     "id": "s19_feedback.1",
+     "text": "反馈要写三样：时间点、问题、期望。"
+    },
+    {
+     "id": "s19_feedback.2",
+     "text": "比如，第 8 秒，标题被字幕挡住，请上移。"
+    },
+    {
+     "id": "s19_feedback.3",
+     "text": "每轮只改一类问题。"
+    }
+   ],
+   "gap": 0.22
+  },
+  {
+   "id": "s20_prompt",
+   "chapter": "c3",
+   "theme": "light",
+   "transition": {
+    "type": "wipe-up",
+    "dur": 0.6
+   },
+   "lead": 0.45,
+   "tail": 0.45,
+   "snap": "beat",
+   "music": {
+    "energy": 1
+   },
+   "lines": [
+    {
+     "id": "s20_prompt.1",
+     "text": "提示词照这个模板写，先让它列出缺口。"
+    },
+    {
+     "id": "s20_prompt.2",
+     "text": "第一轮只要分镜、三张风格帧和一个短镜头。"
+    },
+    {
+     "id": "s20_prompt.3",
+     "text": "你的第一支，先做 15 到 30 秒。"
+    }
+   ],
+   "gap": 0.22
+  },
+  {
+   "id": "s21_reveal",
+   "chapter": "c4",
+   "theme": "dark",
+   "transition": {
+    "type": "wipe",
+    "dur": 0.6
+   },
+   "lead": 0.45,
+   "tail": 0.45,
+   "snap": "beat",
+   "music": {
+    "energy": 0
+   },
+   "lines": [
+    {
+     "id": "s21_reveal.1",
+     "text": "场景代码、时间轴和配乐程序，都是 Opus 5.5 写的。"
+    },
+    {
+     "id": "s21_reveal.2",
+     "text": "无头 Chrome 渲染每一帧，FFmpeg 编码。"
+    },
+    {
+     "id": "s21_reveal.3",
+     "text": "连我的声音，也是微软的语音合成。"
+    }
+   ],
+   "gap": 0.25
+  },
+  {
+   "id": "s22_end",
+   "chapter": "c4",
+   "theme": "dark",
+   "transition": {
+    "type": "iris",
+    "dur": 0.8,
+    "cx": 960,
+    "cy": 420
+   },
+   "lead": 0.6,
+   "tail": 2.2,
+   "snap": "bar",
+   "subs": true,
+   "chrome": false,
+   "music": {
+    "energy": 3
+   },
+   "lines": [
+    {
+     "id": "s22_end.1",
+     "text": "全文和 1704 个视频案例都在 WaytoAGI，去做你的第一支吧。",
+     "say": "全文和 1704 个视频案例都在 Way to AGI，去做你的第一支吧。"
+    }
+   ]
+  }
+ ]
+}

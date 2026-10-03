@@ -1,0 +1,79 @@
+{
+  "caseId": "uc-0962",
+  "author": "@kimmonismus",
+  "postUrl": "https://x.com/kimmonismus/status/2102844654169575547",
+  "videoFile": "/home/box/orca/projects/opus55-video/assets/cases/uc-0962.mp4",
+  "duration": 180.07,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "hasAudio": true,
+  "highlights": [
+    {
+      "start": 13.5,
+      "end": 21.0,
+      "score": 10,
+      "onScreen": "例句 'The animal didn't cross the street because it was too tired' 变暗后，'the' 被点燃（0:14 星芒闪光）；0:16.5 整句重新亮起，0:17–0:17.5 单词从一条直线沿径向飞散成一圈，金色连线先从 'the' 射向每个词，再在所有词之间织成星形注意力网（0:18–0:20.5）。",
+      "motion": "连续无切：点燃闪光 → 单词径向重排 → 连线逐条生长成网；缓动明显，镜头基本不动",
+      "colors": "近黑蓝底，金/琥珀色辉光，白色等宽单词，衬线字幕白色配橙色斜体",
+      "subjectPosition": "居中；网约占画面宽 40%、高 70%，适合 1:1 中心裁切（0:16.5–0:17 句子一度横跨全宽，方形裁切会切掉句子两端）",
+      "textOnScreen": "左上 '• JUNE 2017'；网上的 11 个单词；0:20 起字幕 'Then every word saw every other word.'",
+      "bestUse": "hook 蒙太奇首镜 / 案例卡主画面（展示'同一对象贯穿全片 + 连续变形'）"
+    },
+    {
+      "start": 43.5,
+      "end": 49.8,
+      "score": 9,
+      "onScreen": "注意力网外长出越来越多节点和连线（GPT-2 阶段，右下独角兽卡片 'a herd of unicorns… Ovid's Unicorn'）；0:46.5 网络炸成满屏粒子，镜头后拉，粒子收拢成一颗边缘发亮的巨大粒子球（GPT-3），球心是暖白光核；左下参数计数 10^9.18 → 10^11.24，右下 few-shot 卡片 'sea otter => loutre de mer / cheese =>'。",
+      "motion": "持续后拉 + 粒子爆散再聚成球壳（约 1.5 秒的爆发），随后缓慢旋转；49.8 秒前结束，避开下一句字幕",
+      "colors": "黑底，金色粒子，中心暖白高光",
+      "subjectPosition": "球体居中、约占画面高 95%，四角有小标签；1:1 中心裁切可保留球体，会裁掉右上模型名和左下计数器",
+      "textOnScreen": "左上 '• 2018 – 2020'；右上 'GPT-2' → 'GPT-3 / OpenAI · May 2020 · 175B'；左下 'PARAMETERS 10^11.24 · SCALING LAWS · KAPLAN ET AL. 2020'；few-shot 卡片小字",
+      "bestUse": "hook 蒙太奇（'规模'的视觉化）/ 说明'纯代码也能做粒子大场面'"
+    },
+    {
+      "start": 147.0,
+      "end": 155.0,
+      "score": 9,
+      "onScreen": "四个工具面板压成一道光收回 'the'（2:27–2:27.5），单个 token 在黑暗中脉动（2:28–2:29.3）；2:29.5 一道横向闪光后展开成行星尺度的点阵地球：深蓝球面、城市光点、环绕的网络弧线与轨道环，'the' 在球心；字幕逐词出现 'It sees. It speaks. It thinks. It acts.'",
+      "motion": "收缩 → 停顿 → 闪光揭示（闪光处换景，不是硬切）→ 地球缓慢自转",
+      "colors": "黑底，琥珀光 → 白色闪光 → 深蓝地球配金白光点",
+      "subjectPosition": "居中；地球直径约为画面高的 75%，适合 1:1 / 4:5 裁切",
+      "textOnScreen": "左上 '• 2025' → '• 20??'；字幕 'It sees. It speaks. It thinks. It acts.'（约 2:34.5 补全）",
+      "bestUse": "案例卡 / 章节转场（文章提到的'点阵地球 + 贯穿母题'）"
+    },
+    {
+      "start": 71.5,
+      "end": 77.5,
+      "score": 8,
+      "onScreen": "ChatGPT 对话框里 'the' 回答 'Hello! How can I help you today?'，点阵地球从右侧滑入；左侧大号计数器从 111 飞涨到 '1,000,000 USERS IN 5 DAYS'，地球上逐个亮起城市光点，四周弹出多语言问候气泡（hi、hola、bonjour、hallo、cześć、grüezi、'help me study'、'summarize this' 等）；1:17 起字幕 'And the world started talking back.'",
+      "motion": "地球滑入 + 数字滚动 + 气泡逐个弹出，镜头静止",
+      "colors": "深蓝黑底，珊瑚红/橙强调，深蓝点阵地球，粉橙光点",
+      "subjectPosition": "计数器在画面左侧约 15–45%，地球在中右约 45–75%；1:1 裁切取中间略偏左可同时保留数字与地球",
+      "textOnScreen": "左上 '• NOV 30, 2022'；'1,000,000 USERS IN 5 DAYS'；气泡小字；字幕 'And the world started talking back.'",
+      "bestUse": "案例卡 / 说明'数据驱动的数字动画'的 B-roll"
+    },
+    {
+      "start": 126.0,
+      "end": 134.0,
+      "score": 8,
+      "onScreen": "token 'the' 两侧长出两条带端点的发光曲线'手臂'（2:06–2:07.5），随后四角出现 search / files / terminal / sub-agents 面板，手臂依次伸向搜索框 search(\"attention is all you need\")、文件树 attention.py 和终端 '$ pytest -q'，被触碰的面板亮起橙色描边；字幕 'Then it picked up tools.' / 'It searched, ran code, opened files.'",
+      "motion": "曲线生长、端点追踪到各面板，面板按顺序点亮，连续无切",
+      "colors": "黑底，琥珀色手臂与描边，深灰面板",
+      "subjectPosition": "四象限全画面布局，token 在中心偏下；只适合 16:9 原比例使用",
+      "textOnScreen": "左上 '• 2025'；面板标题与代码小字（1080p 下约 10–14 px，难读）；两句字幕",
+      "bestUse": "meta-quote：片中'AI 拿起工具——搜索、跑代码、开文件、派子智能体'，恰好对应这支片本身是智能体在 Claude Code 里写代码做出来的（作者自述）"
+    }
+  ],
+  "heroStill": {
+    "t": 21.5,
+    "description": "约 0:21.5：左上 '• JUNE 2017'，发光的 'the' 居中，其余 10 个单词围成一圈，由金色注意力连线织成星形网；底部衬线字幕 'Then every word saw every other word.'，近黑底。适合作封面或案例卡。"
+  },
+  "whyCoolZh": "1) 一个贯穿全片的'主角'：发光的单词 token 'the' 从 0:14 被点燃，到 2:59 片尾几乎每一场都是视线焦点。每个时代只给它加一种新能力：连线（注意力）、对话气泡（ChatGPT）、吸入像素块与声谱的粉色光环（多模态）、思考计时环（推理）、两条伸向搜索/文件/终端/子智能体面板的发光'手臂'（工具）。观众不必每场重新找重点。\n2) 转场从内容里长出来，几乎没有硬切：0:16.5–0:18 整句单词从一条直线沿径向飞散成环，再织成注意力网；0:46.5–0:48 网络炸成满屏粒子，镜头后拉成一颗发光粒子球；2:27–2:30 工具面板压缩回 token，闪光后展开成点阵地球；2:48–2:50 地球坍缩成光速条纹，回到黑暗中的单个 token。\n3) 克制统一的视觉系统：近黑底配一种暖色强调，强调色随时代变化（2017–2020 金色、2022 珊瑚红、2023 粉洋红、2024–25 琥珀、结尾金白配深蓝地球）。基本只用一款衬线展示字和一款等宽'模型输出'字；每屏左上角有'• JUNE 2017 / • NOV 30, 2022 / • 20??'式时代标签；字幕都是 8 个词以内的短句。\n4) 用'彩蛋'承载信息密度：代码重绘的论文首页与 Transformer 架构图（作者名、arXiv:1706.03762）；以 10 的幂显示的参数计数器（10^8.07 → 10^11.24，对应 GPT 约 1.17 亿到 GPT-3 约 1750 亿参数）；Kaplan 2020 规模定律小图；BERT 的 [MASK]、GPT-2 的独角兽、GPT-3 的 'sea otter => loutre de mer'；'Explain the moon landing to a 6-year-old'、ViT 的 'an image is worth 16×16 words'、数 strawberry 里的 r、'42 passed in 1.21s'。细看有回报，不细看也不影响主线。\n5) 有完整的声音层：频谱显示全片有连续的低频音床，上面叠着逐句出现、句间留白的人声样宽频纹理，与作者说的'开源 TTS 旁白 + Python 合成配乐'相符；综合响度约 −15 LUFS。我们没有收听，只做了频谱和响度检查。",
+  "takeawayZh": "先给片子定一个贯穿始终的'主角'（一个词或一个图形），每一场只给它加一个新状态，转场让它变形，而不是切镜头。提示里写清流程（先写 STORYBOARD.md，每场渲染 3–4 张静帧自查后再往下做）和可检查的硬规则（字体数量、每屏字数、文字停留秒数），这些都能直接抄进自己的提示。",
+  "evidenceLimitsZh": "• 工具栈（约 7,400 行 React/TypeScript + Remotion、SVG/Canvas 绘图、开源 TTS、Python 合成配乐）和'约 1 小时、用掉约 7% 每周额度'都来自作者原帖；原帖和提示回复中没有源码或工程链接，我们无法核对行数、耗时和额度，也没有复现。\n• 公开提示是作者在网友问'愿意分享提示吗？'后回复的那一版：它要求静音渲染、给音乐留一个可选槽位，没有提旁白；但成片有 TTS 旁白和配乐。可见还有未公开的后续指令或迭代，公开提示不等于完整会话。\n• '100% 代码、没有生成器'指的是没用图像或视频生成模型；旁白仍来自一个未具名的开源语音模型，字体来自 Google Fonts（提示允许）。\n• 我们逐段查看了 1080p 原片的抽帧（间隔 0.25–3 秒），能确认画面构成、转场方式以及所选片段内没有硬切；没有完整实时播放，也没有收听音轨（只看了频谱和响度），因此不评价旁白内容、音画同步和动作流畅度。\n• 抽查的屏幕信息与公开资料一致：论文 arXiv:1706.03762 发表于 2017 年 6 月，ChatGPT 发布于 2022-11-30，GPT-3 于 2020 年 5 月发布、参数 1750 亿，各模型参数量级和 Kaplan et al. 2020 也对得上。但我们没有逐句核查旁白和全部字幕，'RLHF roots… 34 min before the Transformer' 这类脚注未核实；结尾段（'20??'）是对未来的设想，不是事实陈述。",
+  "notes": "• 文件：H.264 1920×1080、30 fps（5402 帧）、180.1 s，AAC 立体声 48 kHz。用 xpost.py 下载的是 X 上最高档的 1080p 变体（标称 10.4 Mbps，实际视频码率约 1.15 Mbps），没有用旧版低清副本。\n• 公开提示：https://x.com/kimmonismus/status/2102847451111772219（回复 @drivebycheckmat 的 'Willing to share the prompt?'），全文见 promptFile；正文 4314 字符，与上游记录的 4307（去掉开头 'sure!'）一致。\n• 段落结构（据抽帧）：0:00 天文台冷开场，单词如星 → 0:03 RNN 逐词阅读并遗忘 → 0:13 'the' 点燃，注意力网 → 0:25.5 论文首页与架构图 → 0:36 GPT/BERT/GPT-2/GPT-3 规模扩张与粒子球 → 0:55 'Explain the moon landing…'、人类偏好排序、ChatGPT、百万用户地球 → 1:20 多模态（像素猫、麦克风、频谱、代码）→ 1:41 strawberry 推理链 → 2:06 工具与子智能体 → 2:27 点阵地球 'It sees. It speaks. It thinks. It acts.' → 2:48 坍缩回单个 token → 2:55 片名 'Attention Is All You Need → AGI?'（下方 'ARXIV:1706.03762 · 12 JUNE 2017'）。\n• 备选片段：1:23.5–1:29.0 像素猫拆成方块被粉色光环吸入、声波变频谱（8 分，元素左右铺开，只适合 16:9）；1:49–2:03 strawberry 推理链的分叉、剪枝与回溯（6 分，小字多）；2:47.5–2:59.5 闪光坍缩 + 片名逐字排版（7 分，可作片尾或案例卡收尾）。\n• 小字（面板代码、脚注、模型副标）在 1080p 下只有约 10–14 px 高，复用时只能当质感，不能指望观众读清。\n• 提示原句 'Attention was all we needed. What comes next is up to us.'（并允许改写）在片中改为 'Attention was all it needed.' / 'What comes next needs ours.'。\n• 与旧视觉评审一致：深色背景、橙色高光、'the' 母题；辅助小字偏小。\n• 抽帧图：research/cases/sheets/uc-0962-*（coarse-a/b、dense-*、q-*、grid-keyframes*、labels、highlights、audio-spectrum.png）。\n• 建议署名：画面来自 @kimmonismus《Attention Is All You Need → AGI》（X，2026-09-23）。",
+  "postTextZh": "我想用 Opus 5.5 快速做一支讲 AI 历史的短片，从《Attention Is All You Need》一直讲到 AGI。\n\n没有素材库画面，没有图像或视频生成器：每一帧都由代码渲染。\n\n这支 3 分钟的影片 100% 由 Claude 在 Claude Code 里用代码完成：约 7,400 行 React/TypeScript（Remotion），每一张图都用 SVG 和 Canvas 绘制，一个开源 TTS 语音，再加一段用 Python 合成的配乐。没有素材库画面。没有图像生成器。\n\n我觉得挺酷的！大概花了 1 小时，以及 7% 的每周额度。（原文 'Tookl about 1h and 7% weekly rates'，Tookl 为笔误）",
+  "promptFile": "/home/box/orca/projects/opus55-video/research/cases/uc-0962-prompt.txt",
+  "promptSummaryZh": "公开提示（作者在网友索要后回复贴出）把模型设定为'动效设计师兼创意总监'，要做一支完全用代码构建、渲染为 MP4 的 3 分钟动画短片。\n• 题目与调性：'Attention Is All You Need → AGI'，讲 2017 年一篇论文如何一步步走到大语言模型、推理、会用工具的智能体，以及 AGI 这个开放问题；要像'电影化随笔'，不要幻灯片或时间轴信息图（'Kurzgesagt 遇上皮克斯开场'）。\n• 技术：Remotion（React），1920×1080、30 fps、正好 180 秒（5400 帧）；每场一个 composition，由主 composition 串联；不用外部图片或素材库，一切用 SVG、Canvas、CSS 和代码生成的粒子与形状绘制（可用 Google Fonts）。\n• 流程：动工前先写 STORYBOARD.md（每场时长、画面、屏幕文字、转场），再逐场制作；每场渲染 3–4 张静帧（npx remotion still）并'挑剔地看'，修好布局、重叠、可读性和节奏再往下；最后用 npx remotion render 输出 out/film.mp4；留一个可选的 <Audio> 槽位给后加的音乐，缺失时静音渲染。\n• 叙事主线：主角是一个发光的 token，即单词 'the'，穿越每个时代——2017 年通过注意力线'看见'其他词，之后依次获得声音、感官（多模态）、推理、双手（工具），最后得到一个问题。\n• 分镜：给出 9 段带时间的场景（冷开场 RNN 逐词遗忘 → 2017 注意力网 → 2018–2020 规模扩张、镜头拉远 → 2022 指令微调/RLHF/ChatGPT 与用户计数器 → 2023 多模态 → 2024–2025 推理链的分叉、剪枝、回溯 → 工具与子智能体'工作坊' → 走向 AGI，2017 的网变成行星尺度 → 回到黑暗中的单个 token 与片名），允许重新分配时长。\n• 工艺规则：年份、人名、论文标题要准确，不确定就不写，并列入 NOTES.md；屏幕上一次最多约 8 个词，每段文字停留至少 2.5 秒；一种展示字体 + 一种等宽字体（用于模型输出）；运动用弹簧和缓动，不用线性；转场从内容中长出来（网变形、镜头穿过节点），不用通用淡入淡出；深色背景 + 一种随时代演变的暖色强调色；用真实论文片段、小 UI 细节、可信的模型输出等彩蛋奖励细看；疏密交替，给推理段和 AGI 段留出呼吸。\n• 交付：自主跑完全流程，给出 MP4 路径、创作决策摘要和 NOTES.md。\n关键手法：先写分镜文件、每场静帧自查的闭环、单一视觉母题、可检查的排版与运动规则、从内容生长的转场、'不确定就不写并记录'的事实规则。"
+}

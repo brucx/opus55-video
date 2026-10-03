@@ -1,0 +1,38 @@
+{
+  "file": "research/cases/video/2102554209166000267.mp4",
+  "durationS": 20.062,
+  "estimatedBPM": 120.43,
+  "estimatedFirstBeatS": 0.1,
+  "firstBeatAssuming120BPM": 0.04,
+  "barRmsDb_2s": [
+    -15.5,
+    -14.1,
+    -13.1,
+    -13.9,
+    -13.8,
+    -12.5,
+    -12.3,
+    -12.5,
+    -12.7,
+    -13.9,
+    -42.9
+  ],
+  "kickToGrid": {
+    "matchedBeats": 22,
+    "gridBeats": 41,
+    "medianOffsetMs": 6.8,
+    "p90AbsOffsetMs": 23.5
+  },
+  "sceneCutThreshold": 0.12,
+  "cuts": [
+    {
+      "t": 4.233,
+      "score": 0.17,
+      "nearestBeat": 4.04,
+      "beatIndex": 8,
+      "offsetMs": 193.3
+    }
+  ],
+  "cutsWithin1FrameOfBeat": 0,
+  "cutsWithin50msOfBeat": 0
+}
